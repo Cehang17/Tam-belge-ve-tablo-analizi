@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PDF dosyalarınızı yükleyin, layout analizi yapın ve yapılandırılmış JSON çıktısını indirin.">
+    <title>DocLayout Analiz — PDF'den Yapılandırılmış JSON</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0e1a;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.7);
+            --bg-card-hover: rgba(31, 41, 63, 0.8);
+            --border-subtle: rgba(99, 102, 241, 0.15);
+            --border-glow: rgba(99, 102, 241, 0.4);
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --accent-primary: #6366f1;
+            --accent-secondary: #818cf8;
+            --accent-glow: rgba(99, 102, 241, 0.25);
+            --success: #10b981;
+            --success-glow: rgba(16, 185, 129, 0.25);
+            --error: #ef4444;
+            --error-glow: rgba(239, 68, 68, 0.2);
+            --warning: #f59e0b;
+            --gradient-primary: linear-gradient(135deg, #6366f1, #8b5cf6, #a78bfa);
+            --gradient-bg: radial-gradient(ellipse at 20% 50%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
+                           radial-gradient(ellipse at 80% 20%, rgba(139, 92, 246, 0.06) 0%, transparent 50%),
+                           radial-gradient(ellipse at 50% 80%, rgba(167, 139, 250, 0.04) 0%, transparent 50%);
+            --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+            --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.15);
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 20px;
+            --radius-xl: 24px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: var(--gradient-bg);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* ======= HEADER ======= */
+        .header {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 48px 20px 12px;
+        }
+
+        .header__badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 14px;
+            background: rgba(99, 102, 241, 0.12);
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: 100px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent-secondary);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .header__badge .dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: pulse-dot 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+            50% { opacity: 0.7; box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+        }
+
+        .header__title {
+            font-size: clamp(28px, 5vw, 42px);
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        .header__subtitle {
+            font-size: 15px;
+            color: var(--text-secondary);
+            font-weight: 400;
+            max-width: 500px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        /* ======= MAIN CONTAINER ======= */
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 640px;
+            margin: 32px auto 60px;
+            padding: 0 20px;
+        }
+
+        /* ======= CARD ======= */
+        .card {
+            background: var(--bg-card);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-xl);
+            padding: 32px;
+            box-shadow: var(--shadow-card);
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            border-color: var(--border-glow);
+            box-shadow: var(--shadow-card), var(--shadow-glow);
+        }
+
+        /* ======= DROP ZONE ======= */
+        .dropzone {
+            position: relative;
+            border: 2px dashed rgba(99, 102, 241, 0.25);
+            border-radius: var(--radius-lg);
+            padding: 48px 24px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: rgba(99, 102, 241, 0.03);
+        }
+
+        .dropzone:hover, .dropzone.drag-over {
+            border-color: var(--accent-primary);
+            background: rgba(99, 102, 241, 0.08);
+            transform: scale(1.01);
+        }
+
+        .dropzone.drag-over {
+            box-shadow: inset 0 0 40px rgba(99, 102, 241, 0.1);
+        }
+
+        .dropzone__icon {
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 16px;
+            background: var(--gradient-primary);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+        }
+
+        .dropzone__icon svg {
+            width: 28px;
+            height: 28px;
+            stroke: white;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .dropzone__title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: var(--text-primary);
+        }
+
+        .dropzone__subtitle {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .dropzone input[type="file"] {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* ======= FILE INFO ======= */
+        .file-info {
+            display: none;
+            align-items: center;
+            gap: 14px;
+            padding: 16px;
+            background: rgba(99, 102, 241, 0.06);
+            border: 1px solid rgba(99, 102, 241, 0.15);
+            border-radius: var(--radius-md);
+            margin-top: 20px;
+        }
+
+        .file-info.visible { display: flex; }
+
+        .file-info__icon {
+            width: 42px;
+            height: 42px;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .file-info__icon svg {
+            width: 20px;
+            height: 20px;
+            stroke: white;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .file-info__details {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .file-info__name {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .file-info__size {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .file-info__remove {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            color: var(--error);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+        }
+
+        .file-info__remove:hover {
+            background: rgba(239, 68, 68, 0.2);
+            border-color: rgba(239, 68, 68, 0.4);
+        }
+
+        /* ======= BUTTON ======= */
+        .btn-analyze {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            margin-top: 20px;
+            padding: 16px 24px;
+            font-family: inherit;
+            font-size: 15px;
+            font-weight: 600;
+            color: white;
+            background: var(--gradient-primary);
+            border: none;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-analyze:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn-analyze:active:not(:disabled) {
+            transform: translateY(0);
+        }
+
+        .btn-analyze:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-analyze svg {
+            width: 18px;
+            height: 18px;
+            stroke: white;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        /* ======= PROGRESS SECTION ======= */
+        .progress-section {
+            display: none;
+            margin-top: 24px;
+        }
+
+        .progress-section.visible { display: block; }
+
+        .progress__bar-track {
+            width: 100%;
+            height: 6px;
+            background: rgba(99, 102, 241, 0.1);
+            border-radius: 100px;
+            overflow: hidden;
+            margin-bottom: 14px;
+        }
+
+        .progress__bar-fill {
+            height: 100%;
+            width: 0%;
+            background: var(--gradient-primary);
+            border-radius: 100px;
+            transition: width 0.5s ease;
+        }
+
+        .progress__bar-fill.indeterminate {
+            width: 30%;
+            animation: indeterminate 1.5s ease-in-out infinite;
+        }
+
+        @keyframes indeterminate {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(430%); }
+        }
+
+        .progress__status {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .progress__spinner {
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(99, 102, 241, 0.2);
+            border-top-color: var(--accent-primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            flex-shrink: 0;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .progress__message {
+            font-size: 13px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        /* ======= RESULT SECTION ======= */
+        .result-section {
+            display: none;
+            margin-top: 24px;
+        }
+
+        .result-section.visible { display: block; }
+
+        .result__success {
+            padding: 20px;
+            background: rgba(16, 185, 129, 0.06);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            border-radius: var(--radius-md);
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .result__success-icon {
+            width: 44px;
+            height: 44px;
+            background: rgba(16, 185, 129, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            animation: pop-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        @keyframes pop-in {
+            0% { transform: scale(0); }
+            100% { transform: scale(1); }
+        }
+
+        .result__success-icon svg {
+            width: 22px;
+            height: 22px;
+            stroke: var(--success);
+            stroke-width: 2.5;
+            fill: none;
+        }
+
+        .result__success-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--success);
+            margin-bottom: 4px;
+        }
+
+        .result__success-subtitle {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 14px;
+        }
+
+        .result__actions {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .btn-download {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #10b981, #059669);
+            border: none;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-download:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+        }
+
+        .btn-download svg {
+            width: 15px;
+            height: 15px;
+            stroke: white;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .btn-new {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 18px;
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-new:hover {
+            color: var(--text-primary);
+            border-color: rgba(148, 163, 184, 0.4);
+            background: rgba(148, 163, 184, 0.08);
+        }
+
+        /* ======= STATS BAR ======= */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .stat-card {
+            background: rgba(99, 102, 241, 0.05);
+            border: 1px solid rgba(99, 102, 241, 0.15);
+            border-radius: var(--radius-md);
+            padding: 14px;
+            text-align: center;
+        }
+
+        .stat-card__val {
+            font-size: 24px;
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-card__label {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 4px;
+        }
+
+        /* ======= VIEWER TABS ======= */
+        .viewer-tabs {
+            display: flex;
+            gap: 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+            overflow-x: auto;
+        }
+
+        .viewer-tab {
+            padding: 8px 16px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            background: transparent;
+            border: 1px solid transparent;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+        }
+
+        .viewer-tab:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .viewer-tab.active {
+            color: #fff;
+            background: rgba(99, 102, 241, 0.15);
+            border-color: rgba(99, 102, 241, 0.35);
+        }
+
+        .tab-pane {
+            display: none;
+        }
+
+        .tab-pane.active {
+            display: block;
+        }
+
+        /* ======= TABLE VIEWER ======= */
+        .table-card {
+            background: rgba(17, 24, 39, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+
+        .table-card__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .table-card__title {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--accent-secondary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .table-card__badge {
+            font-size: 11px;
+            padding: 3px 8px;
+            background: rgba(99, 102, 241, 0.15);
+            border-radius: 4px;
+            color: var(--text-secondary);
+        }
+
+        .table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: var(--radius-sm);
+        }
+
+        .custom-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+            text-align: left;
+        }
+
+        .custom-table th, .custom-table td {
+            padding: 8px 12px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            line-height: 1.4;
+            max-width: 260px;
+            word-wrap: break-word;
+        }
+
+        .custom-table th {
+            background: rgba(99, 102, 241, 0.12);
+            color: #c7d2fe;
+            font-weight: 600;
+        }
+
+        .custom-table td {
+            background: rgba(15, 23, 42, 0.5);
+            color: var(--text-primary);
+        }
+
+        .custom-table tr:hover td {
+            background: rgba(99, 102, 241, 0.06);
+        }
+
+        .cell-coord-tag {
+            display: inline-block;
+            font-size: 9px;
+            color: var(--text-muted);
+            font-family: monospace;
+            margin-top: 2px;
+        }
+
+        /* ======= LAYOUT ELEMENTS LIST ======= */
+        .element-item {
+            background: rgba(17, 24, 39, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: var(--radius-sm);
+            padding: 12px 14px;
+            margin-bottom: 10px;
+            transition: border-color 0.2s ease;
+        }
+
+        .element-item:hover {
+            border-color: rgba(99, 102, 241, 0.3);
+        }
+
+        .element-item__top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .element-badge {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 3px 8px;
+            border-radius: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-title { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+        .badge-plain-text, .badge-text { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+        .badge-table { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+        .badge-figure { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+        .badge-header, .badge-footer { background: rgba(148, 163, 184, 0.15); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.3); }
+        .badge-default { background: rgba(255, 255, 255, 0.1); color: var(--text-secondary); }
+
+        .element-coords {
+            font-size: 10px;
+            color: var(--text-muted);
+            font-family: monospace;
+        }
+
+        .element-text {
+            font-size: 13px;
+            color: var(--text-primary);
+            line-height: 1.5;
+            white-space: pre-wrap;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 8px 10px;
+            border-radius: 4px;
+            margin-top: 4px;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        /* ======= JSON CODE VIEW ======= */
+        .json-wrapper {
+            position: relative;
+            background: #090d16;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius-sm);
+            padding: 16px;
+            max-height: 500px;
+            overflow: auto;
+        }
+
+        .json-code {
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 12px;
+            color: #a5b4fc;
+            white-space: pre;
+            line-height: 1.4;
+        }
+
+        .btn-copy {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 6px 12px;
+            font-size: 11px;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-copy:hover {
+            background: var(--accent-primary);
+        }
+
+        /* ======= ERROR ======= */
+        .error-section {
+            display: none;
+            margin-top: 24px;
+        }
+
+        .error-section.visible { display: block; }
+
+        .error__box {
+            padding: 16px;
+            background: rgba(239, 68, 68, 0.06);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .error__message {
+            font-size: 14px;
+            color: var(--error);
+            font-weight: 500;
+        }
+
+        /* ======= PIPELINE STEPS ======= */
+        .pipeline-steps {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 28px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(99, 102, 241, 0.08);
+        }
+
+        .pipeline-step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 12px;
+            background: rgba(99, 102, 241, 0.04);
+            border: 1px solid rgba(99, 102, 241, 0.08);
+            border-radius: var(--radius-sm);
+            flex: 1;
+            max-width: 140px;
+        }
+
+        .pipeline-step__icon {
+            font-size: 20px;
+        }
+
+        .pipeline-step__label {
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-align: center;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+        }
+
+        /* ======= FOOTER ======= */
+        .footer {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        /* ======= RESPONSIVE ======= */
+        @media (max-width: 480px) {
+            .card { padding: 20px; }
+            .dropzone { padding: 32px 16px; }
+            .pipeline-steps { flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__badge">
+            <span class="dot" id="statusDot"></span>
+            <span id="statusText">Başlatılıyor</span>
+        </div>
+        <h1 class="header__title">DocLayout Analiz</h1>
+        <p class="header__subtitle">DocLayout-YOLO, Table Transformer ve Surya OCR ile tam belge ve tablo analizi.</p>
+    </header>
+
+    <main class="container" id="mainContainer">
+        <div class="card">
+
+            <!-- Model Loading State -->
+            <div class="model-loading visible" id="modelLoading">
+                <div class="model-loading__spinner"></div>
+                <div class="model-loading__title">Modeller Yükleniyor</div>
+                <div class="model-loading__subtitle">DocLayout-YOLO, Table Transformer ve Surya OCR modelleri hazırlanıyor...</div>
+            </div>
+
+            <!-- Upload Form -->
+            <form id="uploadForm" style="display: none;">
+                <div class="dropzone" id="dropzone">
+                    <div class="dropzone__icon">
+                        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><polyline points="9 15 12 12 15 15"/></svg>
+                    </div>
+                    <div class="dropzone__title">PDF dosyanızı sürükleyip bırakın</div>
+                    <div class="dropzone__subtitle">veya tıklayarak seçin • Maks. 100 MB</div>
+                    <input type="file" id="fileInput" accept=".pdf">
+                </div>
+
+                <div class="file-info" id="fileInfo">
+                    <div class="file-info__icon">
+                        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    </div>
+                    <div class="file-info__details">
+                        <div class="file-info__name" id="fileName"></div>
+                        <div class="file-info__size" id="fileSize"></div>
+                    </div>
+                    <button type="button" class="file-info__remove" id="removeFile" title="Kaldır">
+                        <svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                    </button>
+                </div>
+
+                <button type="submit" class="btn-analyze" id="btnAnalyze" disabled>
+                    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    Analiz Başlat
+                </button>
+            </form>
+
+            <!-- Progress -->
+            <div class="progress-section" id="progressSection">
+                <div class="progress__bar-track">
+                    <div class="progress__bar-fill" id="progressBar"></div>
+                </div>
+                <div class="progress__status">
+                    <div class="progress__spinner"></div>
+                    <div class="progress__message" id="progressMessage">Analiz başlatılıyor...</div>
+                </div>
+            </div>
+
+            <!-- Result -->
+            <div class="result-section" id="resultSection">
+                <div class="result__success">
+                    <div class="result__success-icon">
+                        <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                    </div>
+                    <div class="result__success-title">Analiz Tamamlandı!</div>
+                    <div class="result__success-subtitle" id="resultSubtitle"></div>
+                    
+                    <div class="result__actions">
+                        <a class="btn-download" id="btnDownload" href="#">
+                            <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                            JSON İndir
+                        </a>
+                        <button class="btn-new" id="btnNew">
+                            <svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                            Yeni Dosya Yükle
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="stats-grid" id="statsGrid">
+                    <div class="stat-card">
+                        <div class="stat-card__val" id="statPages">0</div>
+                        <div class="stat-card__label">Sayfa</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__val" id="statTables">0</div>
+                        <div class="stat-card__label">Tablo</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__val" id="statCells">0</div>
+                        <div class="stat-card__label">Hücre</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-card__val" id="statTexts">0</div>
+                        <div class="stat-card__label">Metin Bloğu</div>
+                    </div>
+                </div>
+
+                <!-- Tabs -->
+                <div class="viewer-tabs">
+                    <button class="viewer-tab active" data-tab="tab-tables">📊 Tablolar & Hücreler</button>
+                    <button class="viewer-tab" data-tab="tab-layout">📝 Tüm Layout & OCR</button>
+                    <button class="viewer-tab" data-tab="tab-json">💻 Ham JSON</button>
+                </div>
+
+                <!-- Tab 1: Tablolar -->
+                <div class="tab-pane active" id="tab-tables">
+                    <div id="tablesContainer"></div>
+                </div>
+
+                <!-- Tab 2: Layout & OCR -->
+                <div class="tab-pane" id="tab-layout">
+                    <div id="layoutContainer"></div>
+                </div>
+
+                <!-- Tab 3: JSON -->
+                <div class="tab-pane" id="tab-json">
+                    <div class="json-wrapper">
+                        <button class="btn-copy" id="btnCopyJson">Kopyala</button>
+                        <pre class="json-code" id="jsonDisplay"></pre>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Error -->
+            <div class="error-section" id="errorSection">
+                <div class="error__box">
+                    <div class="error__message" id="errorMessage"></div>
+                    <button class="btn-new" id="btnRetry" style="margin-top: 12px;">Tekrar Dene</button>
+                </div>
+            </div>
+
+            <!-- Pipeline Steps -->
+            <div class="pipeline-steps">
+                <div class="pipeline-step">
+                    <span class="pipeline-step__icon">📐</span>
+                    <span class="pipeline-step__label">DocLayout YOLO</span>
+                </div>
+                <div class="pipeline-step">
+                    <span class="pipeline-step__icon">📊</span>
+                    <span class="pipeline-step__label">Table Transformer</span>
+                </div>
+                <div class="pipeline-step">
+                    <span class="pipeline-step__icon">🔤</span>
+                    <span class="pipeline-step__label">Surya OCR</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        DocLayout-YOLO • Microsoft Table Transformer • Surya OCR
+    </footer>
+
+    <script>
+        const $ = (sel) => document.querySelector(sel);
+        const $$ = (sel) => document.querySelectorAll(sel);
+
+        // Elements
+        const mainContainer = $('#mainContainer');
+        const modelLoading  = $('#modelLoading');
+        const uploadForm    = $('#uploadForm');
+        const dropzone      = $('#dropzone');
+        const fileInput     = $('#fileInput');
+        const fileInfo      = $('#fileInfo');
+        const fileName      = $('#fileName');
+        const fileSize      = $('#fileSize');
+        const removeBtn     = $('#removeFile');
+        const btnAnalyze    = $('#btnAnalyze');
+        const progressSec   = $('#progressSection');
+        const progressBar   = $('#progressBar');
+        const progressMsg   = $('#progressMessage');
+        const resultSec     = $('#resultSection');
+        const resultSub     = $('#resultSubtitle');
+        const btnDownload   = $('#btnDownload');
+        const btnNew        = $('#btnNew');
+        const errorSec      = $('#errorSection');
+        const errorMsg      = $('#errorMessage');
+        const btnRetry      = $('#btnRetry');
+        const statusDot     = $('#statusDot');
+        const statusText    = $('#statusText');
+
+        // Results elements
+        const statPages     = $('#statPages');
+        const statTables    = $('#statTables');
+        const statCells     = $('#statCells');
+        const statTexts     = $('#statTexts');
+        const tablesContainer = $('#tablesContainer');
+        const layoutContainer = $('#layoutContainer');
+        const jsonDisplay   = $('#jsonDisplay');
+        const btnCopyJson   = $('#btnCopyJson');
+
+        let selectedFile = null;
+        let pollTimer = null;
+        let currentResultData = null;
+
+        // --- Tabs Navigation ---
+        $$('.viewer-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                $$('.viewer-tab').forEach(t => t.classList.remove('active'));
+                $$('.tab-pane').forEach(p => p.classList.remove('active'));
+                tab.classList.add('active');
+                const targetPane = $('#' + tab.dataset.tab);
+                if (targetPane) targetPane.classList.add('active');
+            });
+        });
+
+        // --- Model status polling ---
+        let connectionAttempts = 0;
+        function checkModels() {
+            connectionAttempts++;
+            fetch('/api/status')
+                .then(r => {
+                    if (!r.ok) throw new Error(`Server error: ${r.status}`);
+                    return r.json();
+                })
+                .then(data => {
+                    connectionAttempts = 0;
+                    if (data.models_ready) {
+                        modelLoading.classList.remove('visible');
+                        uploadForm.style.display = 'block';
+                        statusDot.style.background = 'var(--success)';
+                        statusText.textContent = 'Hazır';
+                    } else if (data.error) {
+                        statusDot.style.background = 'var(--error)';
+                        statusText.textContent = 'Hata';
+                        modelLoading.querySelector('.model-loading__title').textContent = 'Model Yükleme Hatası';
+                        modelLoading.querySelector('.model-loading__subtitle').textContent = data.error;
+                        modelLoading.querySelector('.model-loading__spinner').style.display = 'none';
+                    } else {
+                        statusDot.style.background = 'var(--warning)';
+                        statusText.textContent = 'Yükleniyor';
+                        setTimeout(checkModels, 2000);
+                    }
+                })
+                .catch(err => {
+                    if (connectionAttempts > 5) {
+                        statusDot.style.background = 'var(--error)';
+                        statusText.textContent = 'Bağlantı Hatası';
+                        modelLoading.querySelector('.model-loading__title').textContent = 'Sunucuya Bağlanılamıyor';
+                        modelLoading.querySelector('.model-loading__subtitle').textContent = 
+                            `Flask sunucusu çalışmıyor. Terminal\'de şunu çalıştırın:\npython app.py\n\nSonra tarayıcıyı yenileyin (F5).`;
+                        modelLoading.querySelector('.model-loading__spinner').style.display = 'none';
+                    } else {
+                        setTimeout(checkModels, 3000);
+                    }
+                });
+        }
+        checkModels();
+
+        // --- File handling ---
+        function formatSize(bytes) {
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+            return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+        }
+
+        function setFile(file) {
+            if (!file || !file.name.toLowerCase().endsWith('.pdf')) {
+                showError('Sadece PDF dosyaları desteklenir.');
+                return;
+            }
+            selectedFile = file;
+            fileName.textContent = file.name;
+            fileSize.textContent = formatSize(file.size);
+            fileInfo.classList.add('visible');
+            btnAnalyze.disabled = false;
+        }
+
+        function clearFile() {
+            selectedFile = null;
+            fileInput.value = '';
+            fileInfo.classList.remove('visible');
+            btnAnalyze.disabled = true;
+        }
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length) setFile(e.target.files[0]);
+        });
+
+        removeBtn.addEventListener('click', clearFile);
+
+        // Drag & Drop
+        ['dragenter', 'dragover'].forEach(evt => {
+            dropzone.addEventListener(evt, (e) => {
+                e.preventDefault();
+                dropzone.classList.add('drag-over');
+            });
+        });
+
+        ['dragleave', 'drop'].forEach(evt => {
+            dropzone.addEventListener(evt, (e) => {
+                e.preventDefault();
+                dropzone.classList.remove('drag-over');
+            });
+        });
+
+        dropzone.addEventListener('drop', (e) => {
+            const files = e.dataTransfer.files;
+            if (files.length) setFile(files[0]);
+        });
+
+        // --- Upload & Analyze ---
+        uploadForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            if (!selectedFile) return;
+
+            // Show progress
+            uploadForm.style.display = 'none';
+            resultSec.classList.remove('visible');
+            errorSec.classList.remove('visible');
+            progressSec.classList.add('visible');
+            progressBar.style.width = '0%';
+            progressBar.classList.add('indeterminate');
+            progressMsg.textContent = 'PDF yükleniyor...';
+
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+
+            try {
+                const resp = await fetch('/api/upload', { method: 'POST', body: formData });
+                const data = await resp.json();
+
+                if (!resp.ok) {
+                    throw new Error(data.error || 'Yükleme başarısız.');
+                }
+
+                pollJobStatus(data.job_id);
+
+            } catch (err) {
+                console.error('Upload error:', err);
+                const msg = err.message.includes('Failed to fetch') 
+                    ? 'Bağlantı hatası: Sunucu çalışmıyor. Terminal\'de "python app.py" çalıştırın.'
+                    : err.message;
+                showError(msg);
+            }
+        });
+
+        function pollJobStatus(jobId) {
+            pollTimer = setInterval(async () => {
+                try {
+                    const resp = await fetch(`/api/job/${jobId}`);
+                    const data = await resp.json();
+
+                    if (data.total_pages > 0) {
+                        const pct = Math.round((data.progress / data.total_pages) * 100);
+                        progressBar.classList.remove('indeterminate');
+                        progressBar.style.width = pct + '%';
+                    }
+                    progressMsg.textContent = data.message || 'İşleniyor...';
+
+                    if (data.status === 'done') {
+                        clearInterval(pollTimer);
+                        progressBar.style.width = '100%';
+                        
+                        // Fetch the full result
+                        fetchResultData(jobId, data);
+                    } else if (data.status === 'error') {
+                        clearInterval(pollTimer);
+                        showError(data.message);
+                    }
+                } catch (err) {
+                    clearInterval(pollTimer);
+                    showError('Bağlantı hatası: ' + err.message);
+                }
+            }, 1000);
+        }
+
+        async function fetchResultData(jobId, jobData) {
+            try {
+                const res = await fetch(`/api/result/${jobId}`);
+                if (!res.ok) throw new Error('Sonuç verisi alınamadı.');
+                const resultJson = await res.json();
+                currentResultData = resultJson;
+                showResult(jobData, resultJson);
+            } catch (err) {
+                showResult(jobData, null);
+            }
+        }
+
+        function showResult(jobData, resultJson) {
+            progressSec.classList.remove('visible');
+            resultSec.classList.add('visible');
+            mainContainer.style.maxWidth = '960px';
+            resultSub.textContent = jobData.original_name + ' başarıyla analiz edildi.';
+            btnDownload.href = `/api/download/${jobData.result_file}`;
+
+            if (resultJson) {
+                renderResultData(resultJson);
+            }
+        }
+
+        function renderResultData(pages) {
+            let totalPages = pages.length;
+            let totalTables = 0;
+            let totalCells = 0;
+            let totalTexts = 0;
+
+            tablesContainer.innerHTML = '';
+            layoutContainer.innerHTML = '';
+
+            pages.forEach(page => {
+                const pageNum = page.page;
+                const elements = page.elements || [];
+
+                // Render Layout Elements
+                const pageHeader = document.createElement('div');
+                pageHeader.style.cssText = 'margin: 16px 0 8px; font-weight: 700; color: var(--accent-secondary); font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px;';
+                pageHeader.textContent = `Sayfa ${pageNum} (${elements.length} Eleman)`;
+                layoutContainer.appendChild(pageHeader);
+
+                elements.forEach((elem, eIdx) => {
+                    const type = elem.type || 'unknown';
+                    const isTable = type === 'table';
+
+                    if (isTable) {
+                        totalTables++;
+                        const cells = elem.cells || [];
+                        totalCells += cells.length;
+
+                        // Render Table in Tab 1
+                        const tCard = document.createElement('div');
+                        tCard.className = 'table-card';
+                        
+                        const numRows = elem.num_rows || (cells.length > 0 ? Math.max(...cells.map(c => c.row)) + 1 : 0);
+                        const numCols = elem.num_cols || (cells.length > 0 ? Math.max(...cells.map(c => c.col)) + 1 : 0);
+
+                        tCard.innerHTML = `
+                            <div class="table-card__header">
+                                <div class="table-card__title">
+                                    <span>📊 Sayfa ${pageNum} — Tablo #${totalTables}</span>
+                                </div>
+                                <div style="display: flex; gap: 6px;">
+                                    <span class="table-card__badge">${numRows} Satır × ${numCols} Sütun</span>
+                                    <span class="table-card__badge">${cells.length} Hücre</span>
+                                    <span class="table-card__badge">Güven: %${Math.round((elem.confidence || 0) * 100)}</span>
+                                </div>
+                            </div>
+                        `;
+
+                        // Construct HTML Table from Cells
+                        if (cells.length > 0 && numRows > 0 && numCols > 0) {
+                            const tableWrapper = document.createElement('div');
+                            tableWrapper.className = 'table-wrapper';
+                            
+                            const tableEl = document.createElement('table');
+                            tableEl.className = 'custom-table';
+
+                            // Grid matrisi oluştur
+                            const grid = Array.from({ length: numRows }, () => Array(numCols).fill(null));
+                            cells.forEach(c => {
+                                if (c.row < numRows && c.col < numCols) {
+                                    grid[c.row][c.col] = c;
+                                }
+                            });
+
+                            grid.forEach((rowCells, rIdx) => {
+                                const tr = document.createElement('tr');
+                                rowCells.forEach((cell, cIdx) => {
+                                    const isHeader = cell && cell.is_header;
+                                    const cellTag = (rIdx === 0 || isHeader) ? 'th' : 'td';
+                                    const cellEl = document.createElement(cellTag);
+                                    
+                                    const text = cell ? (cell.text || '') : '';
+                                    const coords = cell && cell.abs_coords ? `[${cell.abs_coords.join(', ')}]` : '';
+
+                                    cellEl.innerHTML = `
+                                        <div>${text || '<span style="color:var(--text-muted);font-style:italic;">(Boş)</span>'}</div>
+                                        ${coords ? `<div class="cell-coord-tag">r:${rIdx} c:${cIdx} ${coords}</div>` : ''}
+                                    `;
+                                    tr.appendChild(cellEl);
+                                });
+                                tableEl.appendChild(tr);
+                            });
+
+                            tableWrapper.appendChild(tableEl);
+                            tCard.appendChild(tableWrapper);
+                        } else {
+                            tCard.innerHTML += `<div style="color:var(--text-muted);font-size:12px;padding:8px;">Hücre verisi bulunamadı veya satır/sütun ızgarası ayrıştırılamadı.</div>`;
+                        }
+
+                        tablesContainer.appendChild(tCard);
+
+                    } else {
+                        totalTexts++;
+                    }
+
+                    // Render Layout Element Card in Tab 2
+                    const elCard = document.createElement('div');
+                    elCard.className = 'element-item';
+                    
+                    let badgeClass = 'badge-default';
+                    if (type === 'title') badgeClass = 'badge-title';
+                    else if (type.includes('text')) badgeClass = 'badge-plain-text';
+                    else if (type === 'table') badgeClass = 'badge-table';
+                    else if (type.includes('figure')) badgeClass = 'badge-figure';
+                    else if (type === 'header' || type === 'footer') badgeClass = 'badge-header';
+
+                    const coordsStr = elem.coords ? `[${elem.coords.join(', ')}]` : '';
+                    const confPct = elem.confidence ? `%${Math.round(elem.confidence * 100)}` : '';
+                    const textContent = elem.text || (elem.raw_text || '');
+
+                    elCard.innerHTML = `
+                        <div class="element-item__top">
+                            <span class="element-badge ${badgeClass}">${type}</span>
+                            <span class="element-coords">Güven: ${confPct} | Konum: ${coordsStr}</span>
+                        </div>
+                        ${textContent ? `<div class="element-text">${escapeHtml(textContent)}</div>` : ''}
+                    `;
+                    layoutContainer.appendChild(elCard);
+                });
+            });
+
+            // Update stats
+            statPages.textContent = totalPages;
+            statTables.textContent = totalTables;
+            statCells.textContent = totalCells;
+            statTexts.textContent = totalTexts;
+
+            if (totalTables === 0) {
+                tablesContainer.innerHTML = '<div style="text-align:center;color:var(--text-muted);padding:30px;">Bu belgede tablo tespit edilmedi.</div>';
+            }
+
+            // Raw JSON View
+            jsonDisplay.textContent = JSON.stringify(pages, null, 2);
+        }
+
+        function escapeHtml(str) {
+            return str.replace(/&/g, "&amp;")
+                      .replace(/</g, "&lt;")
+                      .replace(/>/g, "&gt;")
+                      .replace(/"/g, "&quot;")
+                      .replace(/'/g, "&#039;");
+        }
+
+        btnCopyJson.addEventListener('click', () => {
+            if (currentResultData) {
+                navigator.clipboard.writeText(JSON.stringify(currentResultData, null, 2)).then(() => {
+                    btnCopyJson.textContent = 'Kopyalandı!';
+                    setTimeout(() => { btnCopyJson.textContent = 'Kopyala'; }, 2000);
+                });
+            }
+        });
+
+        function showError(msg) {
+            progressSec.classList.remove('visible');
+            errorSec.classList.add('visible');
+            errorMsg.textContent = msg;
+        }
+
+        function resetUI() {
+            clearFile();
+            mainContainer.style.maxWidth = '640px';
+            progressSec.classList.remove('visible');
+            resultSec.classList.remove('visible');
+            errorSec.classList.remove('visible');
+            progressBar.classList.remove('indeterminate');
+            progressBar.style.width = '0%';
+            uploadForm.style.display = 'block';
+        }
+
+        btnNew.addEventListener('click', resetUI);
+        btnRetry.addEventListener('click', resetUI);
+    </script>
+
+</body>
+</html>

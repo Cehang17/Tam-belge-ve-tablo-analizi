@@ -1,0 +1,5282 @@
+[
+    {
+        "page": 1,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    53,
+                    349,
+                    1518,
+                    457
+                ],
+                "confidence": 0.8619238138198853,
+                "text": "Bankacılık Hizmetleri Sözleşmesi"
+            }
+        ]
+    },
+    {
+        "page": 2,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    52,
+                    326,
+                    332,
+                    361
+                ],
+                "confidence": 0.9246185421943665,
+                "text": "2. GENEL BİLGİLER"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    53,
+                    177,
+                    250,
+                    210
+                ],
+                "confidence": 0.9107060432434082,
+                "text": "1. TARAFLAR"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.7758457660675049,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    803,
+                    2147,
+                    941,
+                    2179
+                ],
+                "confidence": 0.2985689043998718,
+                "text": "Sayfa\n/\nc\n28\nL"
+            }
+        ]
+    },
+    {
+        "page": 3,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    53,
+                    345,
+                    414,
+                    377
+                ],
+                "confidence": 0.9068892002105713,
+                "text": "3. ÖZEL CARİ HESAPLAR"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    52,
+                    813,
+                    401,
+                    844
+                ],
+                "confidence": 0.8193660378456116,
+                "text": "4. KATILMA HESAPLARI"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.7773769497871399,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 4,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    52,
+                    1246,
+                    621,
+                    1280
+                ],
+                "confidence": 0.8981053233146667,
+                "text": "5. KIYMETLİ MADEN DEPO HESAPLARI"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8294345140457153,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 5,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    52,
+                    1517,
+                    536,
+                    1553
+                ],
+                "confidence": 0.909128725528717,
+                "text": "8. PAYLI (MÜŞTEREK) HESAPLAR"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    56,
+                    974,
+                    804,
+                    1010
+                ],
+                "confidence": 0.9025492668151855,
+                "text": "7. KATILIM FONUNUN ZAMANASIMINA UĞRAMASI"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    52,
+                    750,
+                    974,
+                    785
+                ],
+                "confidence": 0.8804190158843994,
+                "text": "6. KATILIM FONUNUN SİGORTALANMASI, KAPSAMI VE TUTARI"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.7960025668144226,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 6,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1110,
+                    501,
+                    1145
+                ],
+                "confidence": 0.9218153357505798,
+                "text": "10. ÇEKLE İŞLEYEN HESAPLAR"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    52,
+                    540,
+                    710,
+                    578
+                ],
+                "confidence": 0.8952817320823669,
+                "text": "9. ELBİRLİĞİ MÜLKİYETİNE KONU HESAPLAR"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.7689149379730225,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 7,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8151839375495911,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    575,
+                    663,
+                    611
+                ],
+                "confidence": 0.7137752175331116,
+                "text": "11. BANKA KARTLARI VE KREDI KARTLAR"
+            }
+        ]
+    },
+    {
+        "page": 8,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8107649683952332,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 9,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8252556920051575,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 10,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    63,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8124700784683228,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 11,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.7838276624679565,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 12,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1840,
+                    688,
+                    1884
+                ],
+                "confidence": 0.9172766804695129,
+                "text": "12. TAHSİLE VERİLEN KAMBİYO SENETLERİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.7961387038230896,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 13,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    53,
+                    976,
+                    742,
+                    1011
+                ],
+                "confidence": 0.8782168626785278,
+                "text": "13. ELEKTRONİK BANKACILIK UYGULAMALARI"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    63,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8303340077400208,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 14,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1208,
+                    409,
+                    1245
+                ],
+                "confidence": 0.867763102054596,
+                "text": "e\n.\n14. ÖDEME HİZMETLERİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    63,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8155816793441772,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    216,
+                    1379,
+                    1244,
+                    1411
+                ],
+                "confidence": 0.49945586919784546,
+                "text": "ne Hizmetlerinin Kapsamı ve Ödemenin Gerceklestirileceği Para Birimi"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    284,
+                    1513,
+                    1313,
+                    1545
+                ],
+                "confidence": 0.46852368116378784,
+                "text": "eminin Gerceklestirilebilmesi İcin Müsteri'nin Sunması Gereken Bilgile"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1246,
+                    271,
+                    1276
+                ],
+                "confidence": 0.2788928747177124,
+                "text": "14.1. Tanımlar"
+            }
+        ]
+    },
+    {
+        "page": 15,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1313,
+                    796,
+                    1344
+                ],
+                "confidence": 0.7592707276344299,
+                "text": "14.6. Odeme Isleminin Azami Tamamlanma Süresi"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.7573590874671936,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    53,
+                    1813,
+                    848,
+                    1845
+                ],
+                "confidence": 0.6335867643356323,
+                "text": "14.9. Ödeme Hizmetiyle İlgili Olarak Uygulanacak Kur"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1446,
+                    557,
+                    1477
+                ],
+                "confidence": 0.49217793345451355,
+                "text": "14.7. Ödeme Aracı Harcama Limiti"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    284,
+                    746,
+                    1314,
+                    778
+                ],
+                "confidence": 0.4711417853832245,
+                "text": "nrinin Alınma Zamanı ve Ödeme Emrinin En Son Kabul Edileceği Zaman"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    112,
+                    1545,
+                    1140,
+                    1577
+                ],
+                "confidence": 0.3350175619125366,
+                "text": ". Müsteri Tarafından Banka'ya Ödenmesi Gereken Ücretlerin Dökümü"
+            }
+        ]
+    },
+    {
+        "page": 16,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8229005336761475,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    55,
+                    746,
+                    920,
+                    778
+                ],
+                "confidence": 0.6331599354743958,
+                "text": "14.12. Banka'nın Ödeme Aracını Kullanıma Kapatma Hakkı"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    56,
+                    1046,
+                    1178,
+                    1077
+                ],
+                "confidence": 0.4339897930622101,
+                "text": "14.13. Yetkilendirilmemis Veya Hatalı Ödeme İslemlerine İliskin Sorumluluk"
+            }
+        ]
+    },
+    {
+        "page": 17,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1212,
+                    520,
+                    1245
+                ],
+                "confidence": 0.8748273253440857,
+                "text": "14.15. Geri Ödemenin Kosulları"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.7366502285003662,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1779,
+                    900,
+                    1812
+                ],
+                "confidence": 0.6072485446929932,
+                "text": "14.16. Ödeme Hizmetlerine İliskin Maddelerde Değisiklik"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1946,
+                    900,
+                    1978
+                ],
+                "confidence": 0.5560322999954224,
+                "text": "14.17. Tüketici Olmayan Müsteri'ye İliskin Özel Hükümler"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    803,
+                    2147,
+                    955,
+                    2179
+                ],
+                "confidence": 0.4774359464645386,
+                "text": "Savfa\n1\n\n28"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    146,
+                    174,
+                    1176,
+                    213
+                ],
+                "confidence": 0.4114258885383606,
+                "text": "Ödeme İslemlerinin Gerceklestirilmesi İle İlgili Banka'nın Sorumluluğu"
+            }
+        ]
+    },
+    {
+        "page": 18,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8349120020866394,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    56,
+                    1678,
+                    971,
+                    1712
+                ],
+                "confidence": 0.535987138748169,
+                "text": "14.19. Süre, Sona Erme Ve Fesih İle Uyuşmazlıkta Yetkili Merci"
+            }
+        ]
+    },
+    {
+        "page": 19,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    53,
+                    176,
+                    317,
+                    211
+                ],
+                "confidence": 0.8856760263442993,
+                "text": "15. KİRALIK KASA"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8208333849906921,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 20,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    55,
+                    881,
+                    782,
+                    913
+                ],
+                "confidence": 0.8227196931838989,
+                "text": "16. İLETİSİM ARACLARI İLE VERİLEN TALİMATLAR"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.796116828918457,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 21,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1742,
+                    864,
+                    1777
+                ],
+                "confidence": 0.8740708827972412,
+                "text": "18. BORCLARIN ÖDENMESİ -MUACCELİYET -TEMERRÜT"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    57,
+                    811,
+                    817,
+                    845
+                ],
+                "confidence": 0.8700975775718689,
+                "text": "17. REHIN, HAPIS, TAKAS, MAHSUP, VIRMAN HAKKI"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    63,
+                    1161,
+                    105
+                ],
+                "confidence": 0.7717170715332031,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 22,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8340004086494446,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    55,
+                    1711,
+                    1039,
+                    1744
+                ],
+                "confidence": 0.6954545974731445,
+                "text": "20. BANKA'NIN SES, GÖRÜNTÜ VE DİĞEŘ KAYITLARI YAPMA HAKKI"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    812,
+                    1073,
+                    844
+                ],
+                "confidence": 0.34535664319992065,
+                "text": "19. PARASAL (ÜCRET, KOMİSYON, MASRAF VE SAİR) YÜKÜMLÜLÜKLE"
+            }
+        ]
+    },
+    {
+        "page": 23,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    52,
+                    308,
+                    399,
+                    345
+                ],
+                "confidence": 0.9144387245178223,
+                "text": "n\n21. ÇEŞİTLİ HÜKÜMLER"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8426828980445862,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 24,
+        "elements": [
+            {
+                "type": "title",
+                "coords": [
+                    51,
+                    174,
+                    388,
+                    211
+                ],
+                "confidence": 0.9033105373382568,
+                "text": "22. DELİL SÖZLESMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    52,
+                    305,
+                    404,
+                    337
+                ],
+                "confidence": 0.8996682167053223,
+                "text": "4\n23. ADRES SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    64,
+                    1161,
+                    105
+                ],
+                "confidence": 0.8086887001991272,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    53,
+                    723,
+                    702,
+                    754
+                ],
+                "confidence": 0.8010534048080444,
+                "text": "26. UYUSMAZLIĞA DAIR BASVURU YOLLARI"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    53,
+                    1073,
+                    692,
+                    1104
+                ],
+                "confidence": 0.7225508689880371,
+                "text": "27. KİSİSEL VERİLERE İLİSKİN AYDİNLATMA"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1232,
+                    1073,
+                    1265
+                ],
+                "confidence": 0.7217952013015747,
+                "text": "28.  GENEL İSLEM KOSULU KULLANILDIĞI UYARISI VE BİLGİLENDİRME"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    54,
+                    1424,
+                    583,
+                    1455
+                ],
+                "confidence": 0.7017204761505127,
+                "text": "29. BHS'NİN SONA ERMESİ VE FESİH"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    53,
+                    466,
+                    550,
+                    497
+                ],
+                "confidence": 0.6091926097869873,
+                "text": ".\n24. HUKUK VE YETKİ SÖZLESMESİ"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    52,
+                    595,
+                    650,
+                    625
+                ],
+                "confidence": 0.5330163836479187,
+                "text": "25. MAAS/ÜCRET HACZİNE MUVAFAKAT"
+            }
+        ]
+    },
+    {
+        "page": 25,
+        "elements": [
+            {
+                "type": "table",
+                "coords": [
+                    44,
+                    152,
+                    1652,
+                    1953
+                ],
+                "confidence": 0.9690325856208801,
+                "num_rows": 40,
+                "num_cols": 4,
+                "cells": [
+                    {
+                        "row": 0,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            63,
+                            624,
+                            98
+                        ],
+                        "abs_coords": [
+                            61,
+                            215,
+                            668,
+                            250
+                        ],
+                        "text": "Müşteri No"
+                    },
+                    {
+                        "row": 0,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            63,
+                            793,
+                            98
+                        ],
+                        "abs_coords": [
+                            631,
+                            215,
+                            837,
+                            250
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 0,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            63,
+                            1323,
+                            98
+                        ],
+                        "abs_coords": [
+                            781,
+                            215,
+                            1367,
+                            250
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 0,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            63,
+                            1555,
+                            98
+                        ],
+                        "abs_coords": [
+                            1364,
+                            215,
+                            1599,
+                            250
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 1,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            63,
+                            624,
+                            98
+                        ],
+                        "abs_coords": [
+                            61,
+                            215,
+                            668,
+                            250
+                        ],
+                        "text": "Müşteri No"
+                    },
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            63,
+                            793,
+                            98
+                        ],
+                        "abs_coords": [
+                            631,
+                            215,
+                            837,
+                            250
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            63,
+                            1323,
+                            98
+                        ],
+                        "abs_coords": [
+                            781,
+                            215,
+                            1367,
+                            250
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            63,
+                            1555,
+                            98
+                        ],
+                        "abs_coords": [
+                            1364,
+                            215,
+                            1599,
+                            250
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 2,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            64,
+                            624,
+                            190
+                        ],
+                        "abs_coords": [
+                            61,
+                            216,
+                            668,
+                            342
+                        ],
+                        "text": "Müşteri No Adı ve Soyadı/Ünvanı TCKN/VKN/YKN"
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            64,
+                            793,
+                            190
+                        ],
+                        "abs_coords": [
+                            631,
+                            216,
+                            837,
+                            342
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            64,
+                            1323,
+                            190
+                        ],
+                        "abs_coords": [
+                            781,
+                            216,
+                            1367,
+                            342
+                        ],
+                        "text": "Ticaret Sicil Numarası"
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            64,
+                            1555,
+                            190
+                        ],
+                        "abs_coords": [
+                            1364,
+                            216,
+                            1599,
+                            342
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 3,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            97,
+                            624,
+                            141
+                        ],
+                        "abs_coords": [
+                            61,
+                            249,
+                            668,
+                            293
+                        ],
+                        "text": "Adı ve Soyadı/Ünvanı"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            97,
+                            793,
+                            141
+                        ],
+                        "abs_coords": [
+                            631,
+                            249,
+                            837,
+                            293
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            97,
+                            1323,
+                            141
+                        ],
+                        "abs_coords": [
+                            781,
+                            249,
+                            1367,
+                            293
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            97,
+                            1555,
+                            141
+                        ],
+                        "abs_coords": [
+                            1364,
+                            249,
+                            1599,
+                            293
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 4,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            97,
+                            624,
+                            139
+                        ],
+                        "abs_coords": [
+                            61,
+                            249,
+                            668,
+                            291
+                        ],
+                        "text": "Adı ve Soyadı/Ünvanı"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            97,
+                            793,
+                            139
+                        ],
+                        "abs_coords": [
+                            631,
+                            249,
+                            837,
+                            291
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            97,
+                            1323,
+                            139
+                        ],
+                        "abs_coords": [
+                            781,
+                            249,
+                            1367,
+                            291
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            97,
+                            1555,
+                            139
+                        ],
+                        "abs_coords": [
+                            1364,
+                            249,
+                            1599,
+                            291
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 5,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            140,
+                            624,
+                            219
+                        ],
+                        "abs_coords": [
+                            61,
+                            292,
+                            668,
+                            371
+                        ],
+                        "text": "TCKN/VKN/YKN"
+                    },
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            140,
+                            793,
+                            219
+                        ],
+                        "abs_coords": [
+                            631,
+                            292,
+                            837,
+                            371
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            140,
+                            1323,
+                            219
+                        ],
+                        "abs_coords": [
+                            781,
+                            292,
+                            1367,
+                            371
+                        ],
+                        "text": "Ticaret Sicil Numarası"
+                    },
+                    {
+                        "row": 5,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            140,
+                            1555,
+                            219
+                        ],
+                        "abs_coords": [
+                            1364,
+                            292,
+                            1599,
+                            371
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 6,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            217,
+                            624,
+                            290
+                        ],
+                        "abs_coords": [
+                            61,
+                            369,
+                            668,
+                            442
+                        ],
+                        "text": "Uyruk Bilgisi"
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            217,
+                            793,
+                            290
+                        ],
+                        "abs_coords": [
+                            631,
+                            369,
+                            837,
+                            442
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            217,
+                            1323,
+                            290
+                        ],
+                        "abs_coords": [
+                            781,
+                            369,
+                            1367,
+                            442
+                        ],
+                        "text": "Doğum Yeri"
+                    },
+                    {
+                        "row": 6,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            217,
+                            1555,
+                            290
+                        ],
+                        "abs_coords": [
+                            1364,
+                            369,
+                            1599,
+                            442
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 7,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            290,
+                            624,
+                            338
+                        ],
+                        "abs_coords": [
+                            61,
+                            442,
+                            668,
+                            490
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 7,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            290,
+                            793,
+                            338
+                        ],
+                        "abs_coords": [
+                            631,
+                            442,
+                            837,
+                            490
+                        ],
+                        "text": "İŞ MESLEK BİLGİLERİ (5510 Sayılı Kanunun 8.Maddesine Göre Gerçek Kişiler Doldurmakla Yükümlüdür)"
+                    },
+                    {
+                        "row": 7,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            290,
+                            1323,
+                            338
+                        ],
+                        "abs_coords": [
+                            781,
+                            442,
+                            1367,
+                            490
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 7,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            290,
+                            1555,
+                            338
+                        ],
+                        "abs_coords": [
+                            1364,
+                            442,
+                            1599,
+                            490
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 8,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            290,
+                            624,
+                            339
+                        ],
+                        "abs_coords": [
+                            61,
+                            442,
+                            668,
+                            491
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 8,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            290,
+                            793,
+                            339
+                        ],
+                        "abs_coords": [
+                            631,
+                            442,
+                            837,
+                            491
+                        ],
+                        "text": "İŞ MESLEK BİLGİLERİ (5510 Sayılı Kanunun 8.Maddesine Göre Gerçek Kişiler Doldurmakla Yükümlüdür)"
+                    },
+                    {
+                        "row": 8,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            290,
+                            1323,
+                            339
+                        ],
+                        "abs_coords": [
+                            781,
+                            442,
+                            1367,
+                            491
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 8,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            290,
+                            1555,
+                            339
+                        ],
+                        "abs_coords": [
+                            1364,
+                            442,
+                            1599,
+                            491
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 9,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            334,
+                            624,
+                            410
+                        ],
+                        "abs_coords": [
+                            61,
+                            486,
+                            668,
+                            562
+                        ],
+                        "text": "Eğitim Düzeyi"
+                    },
+                    {
+                        "row": 9,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            334,
+                            793,
+                            410
+                        ],
+                        "abs_coords": [
+                            631,
+                            486,
+                            837,
+                            562
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 9,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            334,
+                            1323,
+                            410
+                        ],
+                        "abs_coords": [
+                            781,
+                            486,
+                            1367,
+                            562
+                        ],
+                        "text": "Meslek/Unvan"
+                    },
+                    {
+                        "row": 9,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            334,
+                            1555,
+                            410
+                        ],
+                        "abs_coords": [
+                            1364,
+                            486,
+                            1599,
+                            562
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 10,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            410,
+                            624,
+                            488
+                        ],
+                        "abs_coords": [
+                            61,
+                            562,
+                            668,
+                            640
+                        ],
+                        "text": "Çalışma Şekli"
+                    },
+                    {
+                        "row": 10,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            410,
+                            793,
+                            488
+                        ],
+                        "abs_coords": [
+                            631,
+                            562,
+                            837,
+                            640
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 10,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            410,
+                            1323,
+                            488
+                        ],
+                        "abs_coords": [
+                            781,
+                            562,
+                            1367,
+                            640
+                        ],
+                        "text": "Çalışma Sektörü"
+                    },
+                    {
+                        "row": 10,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            410,
+                            1555,
+                            488
+                        ],
+                        "abs_coords": [
+                            1364,
+                            562,
+                            1599,
+                            640
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 11,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            485,
+                            624,
+                            558
+                        ],
+                        "abs_coords": [
+                            61,
+                            637,
+                            668,
+                            710
+                        ],
+                        "text": "İş Yeri/Şahıs Şirket Adı"
+                    },
+                    {
+                        "row": 11,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            485,
+                            793,
+                            558
+                        ],
+                        "abs_coords": [
+                            631,
+                            637,
+                            837,
+                            710
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 11,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            485,
+                            1323,
+                            558
+                        ],
+                        "abs_coords": [
+                            781,
+                            637,
+                            1367,
+                            710
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 11,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            485,
+                            1555,
+                            558
+                        ],
+                        "abs_coords": [
+                            1364,
+                            637,
+                            1599,
+                            710
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 12,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            486,
+                            624,
+                            558
+                        ],
+                        "abs_coords": [
+                            61,
+                            638,
+                            668,
+                            710
+                        ],
+                        "text": "İş Yeri/Şahıs Şirket Adı"
+                    },
+                    {
+                        "row": 12,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            486,
+                            793,
+                            558
+                        ],
+                        "abs_coords": [
+                            631,
+                            638,
+                            837,
+                            710
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 12,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            486,
+                            1323,
+                            558
+                        ],
+                        "abs_coords": [
+                            781,
+                            638,
+                            1367,
+                            710
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 12,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            486,
+                            1555,
+                            558
+                        ],
+                        "abs_coords": [
+                            1364,
+                            638,
+                            1599,
+                            710
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 13,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            556,
+                            624,
+                            635
+                        ],
+                        "abs_coords": [
+                            61,
+                            708,
+                            668,
+                            787
+                        ],
+                        "text": "Şahıs Şirketi Kur.Tarihi"
+                    },
+                    {
+                        "row": 13,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            556,
+                            793,
+                            635
+                        ],
+                        "abs_coords": [
+                            631,
+                            708,
+                            837,
+                            787
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 13,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            556,
+                            1323,
+                            635
+                        ],
+                        "abs_coords": [
+                            781,
+                            708,
+                            1367,
+                            787
+                        ],
+                        "text": "İş Yeri Telefon No"
+                    },
+                    {
+                        "row": 13,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            556,
+                            1555,
+                            635
+                        ],
+                        "abs_coords": [
+                            1364,
+                            708,
+                            1599,
+                            787
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 14,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            627,
+                            624,
+                            700
+                        ],
+                        "abs_coords": [
+                            61,
+                            779,
+                            668,
+                            852
+                        ],
+                        "text": "İş Yeri Adresi"
+                    },
+                    {
+                        "row": 14,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            627,
+                            793,
+                            700
+                        ],
+                        "abs_coords": [
+                            631,
+                            779,
+                            837,
+                            852
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 14,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            627,
+                            1323,
+                            700
+                        ],
+                        "abs_coords": [
+                            781,
+                            779,
+                            1367,
+                            852
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 14,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            627,
+                            1555,
+                            700
+                        ],
+                        "abs_coords": [
+                            1364,
+                            779,
+                            1599,
+                            852
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 15,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            642,
+                            624,
+                            705
+                        ],
+                        "abs_coords": [
+                            61,
+                            794,
+                            668,
+                            857
+                        ],
+                        "text": "İş Yeri Adresi"
+                    },
+                    {
+                        "row": 15,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            642,
+                            793,
+                            705
+                        ],
+                        "abs_coords": [
+                            631,
+                            794,
+                            837,
+                            857
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 15,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            642,
+                            1323,
+                            705
+                        ],
+                        "abs_coords": [
+                            781,
+                            794,
+                            1367,
+                            857
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 15,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            642,
+                            1555,
+                            705
+                        ],
+                        "abs_coords": [
+                            1364,
+                            794,
+                            1599,
+                            857
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 16,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            656,
+                            624,
+                            724
+                        ],
+                        "abs_coords": [
+                            61,
+                            808,
+                            668,
+                            876
+                        ],
+                        "text": "İş Yeri Adresi"
+                    },
+                    {
+                        "row": 16,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            656,
+                            793,
+                            724
+                        ],
+                        "abs_coords": [
+                            631,
+                            808,
+                            837,
+                            876
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 16,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            656,
+                            1323,
+                            724
+                        ],
+                        "abs_coords": [
+                            781,
+                            808,
+                            1367,
+                            876
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 16,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            656,
+                            1555,
+                            724
+                        ],
+                        "abs_coords": [
+                            1364,
+                            808,
+                            1599,
+                            876
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 17,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            683,
+                            624,
+                            741
+                        ],
+                        "abs_coords": [
+                            61,
+                            835,
+                            668,
+                            893
+                        ],
+                        "text": "İLETİŞİM BİLGİLERİ / CONTACT INFORMATION"
+                    },
+                    {
+                        "row": 17,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            683,
+                            793,
+                            741
+                        ],
+                        "abs_coords": [
+                            631,
+                            835,
+                            837,
+                            893
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 17,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            683,
+                            1323,
+                            741
+                        ],
+                        "abs_coords": [
+                            781,
+                            835,
+                            1367,
+                            893
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 17,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            683,
+                            1555,
+                            741
+                        ],
+                        "abs_coords": [
+                            1364,
+                            835,
+                            1599,
+                            893
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 18,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            695,
+                            624,
+                            751
+                        ],
+                        "abs_coords": [
+                            61,
+                            847,
+                            668,
+                            903
+                        ],
+                        "text": "İLETİŞİM BİLGİLERİ / CONTACT INFORMATION"
+                    },
+                    {
+                        "row": 18,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            695,
+                            793,
+                            751
+                        ],
+                        "abs_coords": [
+                            631,
+                            847,
+                            837,
+                            903
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 18,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            695,
+                            1323,
+                            751
+                        ],
+                        "abs_coords": [
+                            781,
+                            847,
+                            1367,
+                            903
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 18,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            695,
+                            1555,
+                            751
+                        ],
+                        "abs_coords": [
+                            1364,
+                            847,
+                            1599,
+                            903
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 19,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            729,
+                            624,
+                            788
+                        ],
+                        "abs_coords": [
+                            61,
+                            881,
+                            668,
+                            940
+                        ],
+                        "text": "İLETİŞİM BİLGİLERİ / CONTACT INFORMATION Mernis Adresi"
+                    },
+                    {
+                        "row": 19,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            729,
+                            793,
+                            788
+                        ],
+                        "abs_coords": [
+                            631,
+                            881,
+                            837,
+                            940
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 19,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            729,
+                            1323,
+                            788
+                        ],
+                        "abs_coords": [
+                            781,
+                            881,
+                            1367,
+                            940
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 19,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            729,
+                            1555,
+                            788
+                        ],
+                        "abs_coords": [
+                            1364,
+                            881,
+                            1599,
+                            940
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 20,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            737,
+                            624,
+                            799
+                        ],
+                        "abs_coords": [
+                            61,
+                            889,
+                            668,
+                            951
+                        ],
+                        "text": "İLETİŞİM BİLGİLERİ / CONTACT INFORMATION Mernis Adresi"
+                    },
+                    {
+                        "row": 20,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            737,
+                            793,
+                            799
+                        ],
+                        "abs_coords": [
+                            631,
+                            889,
+                            837,
+                            951
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 20,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            737,
+                            1323,
+                            799
+                        ],
+                        "abs_coords": [
+                            781,
+                            889,
+                            1367,
+                            951
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 20,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            737,
+                            1555,
+                            799
+                        ],
+                        "abs_coords": [
+                            1364,
+                            889,
+                            1599,
+                            951
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 21,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            758,
+                            624,
+                            813
+                        ],
+                        "abs_coords": [
+                            61,
+                            910,
+                            668,
+                            965
+                        ],
+                        "text": "Mernis Adresi"
+                    },
+                    {
+                        "row": 21,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            758,
+                            793,
+                            813
+                        ],
+                        "abs_coords": [
+                            631,
+                            910,
+                            837,
+                            965
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 21,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            758,
+                            1323,
+                            813
+                        ],
+                        "abs_coords": [
+                            781,
+                            910,
+                            1367,
+                            965
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 21,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            758,
+                            1555,
+                            813
+                        ],
+                        "abs_coords": [
+                            1364,
+                            910,
+                            1599,
+                            965
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 22,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            758,
+                            624,
+                            829
+                        ],
+                        "abs_coords": [
+                            61,
+                            910,
+                            668,
+                            981
+                        ],
+                        "text": "Mernis Adresi"
+                    },
+                    {
+                        "row": 22,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            758,
+                            793,
+                            829
+                        ],
+                        "abs_coords": [
+                            631,
+                            910,
+                            837,
+                            981
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 22,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            758,
+                            1323,
+                            829
+                        ],
+                        "abs_coords": [
+                            781,
+                            910,
+                            1367,
+                            981
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 22,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            758,
+                            1555,
+                            829
+                        ],
+                        "abs_coords": [
+                            1364,
+                            910,
+                            1599,
+                            981
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 23,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            783,
+                            624,
+                            856
+                        ],
+                        "abs_coords": [
+                            61,
+                            935,
+                            668,
+                            1008
+                        ],
+                        "text": "Mernis Adresi |Beyan Edilen Adres"
+                    },
+                    {
+                        "row": 23,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            783,
+                            793,
+                            856
+                        ],
+                        "abs_coords": [
+                            631,
+                            935,
+                            837,
+                            1008
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 23,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            783,
+                            1323,
+                            856
+                        ],
+                        "abs_coords": [
+                            781,
+                            935,
+                            1367,
+                            1008
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 23,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            783,
+                            1555,
+                            856
+                        ],
+                        "abs_coords": [
+                            1364,
+                            935,
+                            1599,
+                            1008
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 24,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            792,
+                            624,
+                            868
+                        ],
+                        "abs_coords": [
+                            61,
+                            944,
+                            668,
+                            1020
+                        ],
+                        "text": "|Beyan Edilen Adres"
+                    },
+                    {
+                        "row": 24,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            792,
+                            793,
+                            868
+                        ],
+                        "abs_coords": [
+                            631,
+                            944,
+                            837,
+                            1020
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 24,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            792,
+                            1323,
+                            868
+                        ],
+                        "abs_coords": [
+                            781,
+                            944,
+                            1367,
+                            1020
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 24,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            792,
+                            1555,
+                            868
+                        ],
+                        "abs_coords": [
+                            1364,
+                            944,
+                            1599,
+                            1020
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 25,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            813,
+                            624,
+                            882
+                        ],
+                        "abs_coords": [
+                            61,
+                            965,
+                            668,
+                            1034
+                        ],
+                        "text": "|Beyan Edilen Adres"
+                    },
+                    {
+                        "row": 25,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            813,
+                            793,
+                            882
+                        ],
+                        "abs_coords": [
+                            631,
+                            965,
+                            837,
+                            1034
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 25,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            813,
+                            1323,
+                            882
+                        ],
+                        "abs_coords": [
+                            781,
+                            965,
+                            1367,
+                            1034
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 25,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            813,
+                            1555,
+                            882
+                        ],
+                        "abs_coords": [
+                            1364,
+                            965,
+                            1599,
+                            1034
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 26,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            838,
+                            624,
+                            916
+                        ],
+                        "abs_coords": [
+                            61,
+                            990,
+                            668,
+                            1068
+                        ],
+                        "text": "|Beyan Edilen Adres"
+                    },
+                    {
+                        "row": 26,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            838,
+                            793,
+                            916
+                        ],
+                        "abs_coords": [
+                            631,
+                            990,
+                            837,
+                            1068
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 26,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            838,
+                            1323,
+                            916
+                        ],
+                        "abs_coords": [
+                            781,
+                            990,
+                            1367,
+                            1068
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 26,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            838,
+                            1555,
+                            916
+                        ],
+                        "abs_coords": [
+                            1364,
+                            990,
+                            1599,
+                            1068
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 27,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            904,
+                            624,
+                            978
+                        ],
+                        "abs_coords": [
+                            61,
+                            1056,
+                            668,
+                            1130
+                        ],
+                        "text": "|Sabit Telefon"
+                    },
+                    {
+                        "row": 27,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            904,
+                            793,
+                            978
+                        ],
+                        "abs_coords": [
+                            631,
+                            1056,
+                            837,
+                            1130
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 27,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            904,
+                            1323,
+                            978
+                        ],
+                        "abs_coords": [
+                            781,
+                            1056,
+                            1367,
+                            1130
+                        ],
+                        "text": "Faks"
+                    },
+                    {
+                        "row": 27,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            904,
+                            1555,
+                            978
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1056,
+                            1599,
+                            1130
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 28,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            987,
+                            624,
+                            1097
+                        ],
+                        "abs_coords": [
+                            61,
+                            1139,
+                            668,
+                            1249
+                        ],
+                        "text": "Şifre Telefonu¹ Cep-1"
+                    },
+                    {
+                        "row": 28,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            987,
+                            793,
+                            1097
+                        ],
+                        "abs_coords": [
+                            631,
+                            1139,
+                            837,
+                            1249
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 28,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            987,
+                            1323,
+                            1097
+                        ],
+                        "abs_coords": [
+                            781,
+                            1139,
+                            1367,
+                            1249
+                        ],
+                        "text": "E-Posta Adresi"
+                    },
+                    {
+                        "row": 28,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            987,
+                            1555,
+                            1097
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1139,
+                            1599,
+                            1249
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 29,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            1099,
+                            624,
+                            1206
+                        ],
+                        "abs_coords": [
+                            61,
+                            1251,
+                            668,
+                            1358
+                        ],
+                        "text": "Şifre Telefonu Cep-2"
+                    },
+                    {
+                        "row": 29,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            1099,
+                            793,
+                            1206
+                        ],
+                        "abs_coords": [
+                            631,
+                            1251,
+                            837,
+                            1358
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 29,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            1099,
+                            1323,
+                            1206
+                        ],
+                        "abs_coords": [
+                            781,
+                            1251,
+                            1367,
+                            1358
+                        ],
+                        "text": "lletişim Telefonu²"
+                    },
+                    {
+                        "row": 29,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            1099,
+                            1555,
+                            1206
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1251,
+                            1599,
+                            1358
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 30,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            1197,
+                            624,
+                            1272
+                        ],
+                        "abs_coords": [
+                            61,
+                            1349,
+                            668,
+                            1424
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 30,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            1197,
+                            793,
+                            1272
+                        ],
+                        "abs_coords": [
+                            631,
+                            1349,
+                            837,
+                            1424
+                        ],
+                        "text": "Aşağıdaki Bilgilerin Ulusal ve Uluslararası Yasal Düzenlemeler Kapsamında Beyan Edilmesi Zorunludur."
+                    },
+                    {
+                        "row": 30,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            1197,
+                            1323,
+                            1272
+                        ],
+                        "abs_coords": [
+                            781,
+                            1349,
+                            1367,
+                            1424
+                        ],
+                        "text": "Aşağıdaki Bilgilerin Ulusal ve Uluslararası Yasal Düzenlemeler Kapsamında Beyan Edilmesi Zorunludur."
+                    },
+                    {
+                        "row": 30,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            1197,
+                            1555,
+                            1272
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1349,
+                            1599,
+                            1424
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 31,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            1205,
+                            624,
+                            1276
+                        ],
+                        "abs_coords": [
+                            61,
+                            1357,
+                            668,
+                            1428
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 31,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            1205,
+                            793,
+                            1276
+                        ],
+                        "abs_coords": [
+                            631,
+                            1357,
+                            837,
+                            1428
+                        ],
+                        "text": "Aşağıdaki Bilgilerin Ulusal ve Uluslararası Yasal Düzenlemeler Kapsamında Beyan Edilmesi Zorunludur."
+                    },
+                    {
+                        "row": 31,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            1205,
+                            1323,
+                            1276
+                        ],
+                        "abs_coords": [
+                            781,
+                            1357,
+                            1367,
+                            1428
+                        ],
+                        "text": "Aşağıdaki Bilgilerin Ulusal ve Uluslararası Yasal Düzenlemeler Kapsamında Beyan Edilmesi Zorunludur."
+                    },
+                    {
+                        "row": 31,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            1205,
+                            1555,
+                            1276
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1357,
+                            1599,
+                            1428
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 32,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            1232,
+                            624,
+                            1297
+                        ],
+                        "abs_coords": [
+                            61,
+                            1384,
+                            668,
+                            1449
+                        ],
+                        "text": "Green Card Sahibi Misiniz?"
+                    },
+                    {
+                        "row": 32,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            1232,
+                            793,
+                            1297
+                        ],
+                        "abs_coords": [
+                            631,
+                            1384,
+                            837,
+                            1449
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 32,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            1232,
+                            1323,
+                            1297
+                        ],
+                        "abs_coords": [
+                            781,
+                            1384,
+                            1367,
+                            1449
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 32,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            1232,
+                            1555,
+                            1297
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1384,
+                            1599,
+                            1449
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 33,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            17,
+                            1260,
+                            624,
+                            1325
+                        ],
+                        "abs_coords": [
+                            61,
+                            1412,
+                            668,
+                            1477
+                        ],
+                        "text": "Green Card Sahibi Misiniz?"
+                    },
+                    {
+                        "row": 33,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            587,
+                            1260,
+                            793,
+                            1325
+                        ],
+                        "abs_coords": [
+                            631,
+                            1412,
+                            837,
+                            1477
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 33,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            737,
+                            1260,
+                            1323,
+                            1325
+                        ],
+                        "abs_coords": [
+                            781,
+                            1412,
+                            1367,
+                            1477
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 33,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1320,
+                            1260,
+                            1555,
+                            1325
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1412,
+                            1599,
+                            1477
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 34,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            1270,
+                            624,
+                            1337
+                        ],
+                        "abs_coords": [
+                            61,
+                            1422,
+                            668,
+                            1489
+                        ],
+                        "text": "Green Card Sahibi Misiniz?"
+                    },
+                    {
+                        "row": 34,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            1270,
+                            793,
+                            1337
+                        ],
+                        "abs_coords": [
+                            631,
+                            1422,
+                            837,
+                            1489
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 34,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            1270,
+                            1323,
+                            1337
+                        ],
+                        "abs_coords": [
+                            781,
+                            1422,
+                            1367,
+                            1489
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 34,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            1270,
+                            1555,
+                            1337
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1422,
+                            1599,
+                            1489
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 35,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            1327,
+                            624,
+                            1415
+                        ],
+                        "abs_coords": [
+                            61,
+                            1479,
+                            668,
+                            1567
+                        ],
+                        "text": "Çifte Vatandaşlığınız Var Mı?"
+                    },
+                    {
+                        "row": 35,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            1327,
+                            793,
+                            1415
+                        ],
+                        "abs_coords": [
+                            631,
+                            1479,
+                            837,
+                            1567
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 35,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            1327,
+                            1323,
+                            1415
+                        ],
+                        "abs_coords": [
+                            781,
+                            1479,
+                            1367,
+                            1567
+                        ],
+                        "text": "Lütfen Çifte Vatandaşı Olduğunuz Ülkeyi Belirtiniz?"
+                    },
+                    {
+                        "row": 35,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            1327,
+                            1555,
+                            1415
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1479,
+                            1599,
+                            1567
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 36,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            1405,
+                            624,
+                            1524
+                        ],
+                        "abs_coords": [
+                            61,
+                            1557,
+                            668,
+                            1676
+                        ],
+                        "text": "ABD' de Vergi Mükellefiyetiniz Var Mı?"
+                    },
+                    {
+                        "row": 36,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            1405,
+                            793,
+                            1524
+                        ],
+                        "abs_coords": [
+                            631,
+                            1557,
+                            837,
+                            1676
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 36,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            1405,
+                            1323,
+                            1524
+                        ],
+                        "abs_coords": [
+                            781,
+                            1557,
+                            1367,
+                            1676
+                        ],
+                        "text": "Varsa, ABD Vergi Kimlik Numaranız ya da Sosyal Güvenlik Numaranız ?"
+                    },
+                    {
+                        "row": 36,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            1405,
+                            1555,
+                            1524
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1557,
+                            1599,
+                            1676
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 37,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            1514,
+                            624,
+                            1638
+                        ],
+                        "abs_coords": [
+                            61,
+                            1666,
+                            668,
+                            1790
+                        ],
+                        "text": "Türkiye dışında bir ülkede vergi mükellefiyetiniz var mı?"
+                    },
+                    {
+                        "row": 37,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            1514,
+                            793,
+                            1638
+                        ],
+                        "abs_coords": [
+                            631,
+                            1666,
+                            837,
+                            1790
+                        ],
+                        "text": "¹ Şifre telefonu; internet bankacılığı geçici şifresi, doğrulama kodu şifresi, tek kullanımlık şifre gibi şifre bilgilerinin gönderileceği telefon numarasıdır. Şifre telefon"
+                    },
+                    {
+                        "row": 37,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            1514,
+                            1323,
+                            1638
+                        ],
+                        "abs_coords": [
+                            781,
+                            1666,
+                            1367,
+                            1790
+                        ],
+                        "text": "Vergi mükellefi olduğum diğer ülke bilgileri yandaki şekildedir. ¹ Şifre telefonu; internet bankacılığı geçici şifresi, doğrulama kodu şifresi, tek kullanımlık şifre gibi şifre bilgilerinin gönderileceği telefon numarasıdır. Şifre telefon"
+                    },
+                    {
+                        "row": 37,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            1514,
+                            1555,
+                            1638
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1666,
+                            1599,
+                            1790
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 38,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            1605,
+                            624,
+                            1704
+                        ],
+                        "abs_coords": [
+                            61,
+                            1757,
+                            668,
+                            1856
+                        ],
+                        "text": "zamanda iletişim amaçlı da kullanılabilecektir."
+                    },
+                    {
+                        "row": 38,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            1605,
+                            793,
+                            1704
+                        ],
+                        "abs_coords": [
+                            631,
+                            1757,
+                            837,
+                            1856
+                        ],
+                        "text": "¹ Şifre telefonu; internet bankacılığı geçici şifresi, doğrulama kodu şifresi, tek kullanımlık şifre gibi şifre bilgilerinin gönderileceği telefon numarasıdır. Şifre telefon"
+                    },
+                    {
+                        "row": 38,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            1605,
+                            1323,
+                            1704
+                        ],
+                        "abs_coords": [
+                            781,
+                            1757,
+                            1367,
+                            1856
+                        ],
+                        "text": "¹ Şifre telefonu; internet bankacılığı geçici şifresi, doğrulama kodu şifresi, tek kullanımlık şifre gibi şifre bilgilerinin gönderileceği telefon numarasıdır. Şifre telefon"
+                    },
+                    {
+                        "row": 38,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            1605,
+                            1555,
+                            1704
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1757,
+                            1599,
+                            1856
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 39,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            17,
+                            1654,
+                            624,
+                            1761
+                        ],
+                        "abs_coords": [
+                            61,
+                            1806,
+                            668,
+                            1913
+                        ],
+                        "text": "zamanda iletişim amaçlı da kullanılabilecektir. ² İletişim telefonu; Müşteri ile iletişim amaçlı (bilgilendirme,tanıtım ve sair) olarak kullanılacaktır."
+                    },
+                    {
+                        "row": 39,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            587,
+                            1654,
+                            793,
+                            1761
+                        ],
+                        "abs_coords": [
+                            631,
+                            1806,
+                            837,
+                            1913
+                        ],
+                        "text": "Bankamızca tarafınıza yapılacak bildirimler ile bankacılık işlem bilgileriniz için bu sayfada belirtmiş olduğunuz bilgileriniz esas alınacaktır."
+                    },
+                    {
+                        "row": 39,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            737,
+                            1654,
+                            1323,
+                            1761
+                        ],
+                        "abs_coords": [
+                            781,
+                            1806,
+                            1367,
+                            1913
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 39,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1320,
+                            1654,
+                            1555,
+                            1761
+                        ],
+                        "abs_coords": [
+                            1364,
+                            1806,
+                            1599,
+                            1913
+                        ],
+                        "text": ""
+                    }
+                ],
+                "raw_text": "30- MÜŞTERİNİN BİLGİLERİ\nMüşteri No\nAdı ve Soyadı/Ünvanı\nTCKN/VKN/YKN\nTicaret Sicil Numarası\nUyruk Bilgisi\nDoğum Yeri\nİŞ MESLEK BİLGİLERİ (5510 Sayılı Kanunun 8.Maddesine Göre Gerçek Kişiler Doldurmakla Yükümlüdür)\nEğitim Düzeyi\nMeslek/Unvan\nÇalışma Şekli\nÇalışma Sektörü\nİş Yeri/Şahıs Şirket Adı \nŞahıs Şirketi Kur.Tarihi\nİş Yeri Telefon No\nİş Yeri Adresi\nİLETİŞİM BİLGİLERİ / CONTACT INFORMATION\nMernis Adresi\n|Beyan Edilen Adres \n|Sabit Telefon\nFaks\nŞifre Telefonu¹ Cep-1\nE-Posta Adresi\nŞifre Telefonu Cep-2\nlletişim Telefonu²\nAşağıdaki Bilgilerin Ulusal ve Uluslararası Yasal Düzenlemeler Kapsamında Beyan Edilmesi Zorunludur.\nGreen Card Sahibi Misiniz?\nLütfen Çifte Vatandaşı\nÇifte Vatandaşlığınız Var Mı?\nOlduğunuz Ülkeyi Belirtiniz?\nABD' de Vergi Mükellefiyetiniz Var Mı? \nVarsa, ABD Vergi Kimlik\nNumaranız ya da Sosyal\nGüvenlik Numaranız ?\nTürkiye dışında bir ülkede vergi\nVergi mükellefi olduğum\nmükellefiyetiniz var mı?\ndiğer ülke bilgileri yandaki\nşekildedir.\n¹ Şifre telefonu; internet bankacılığı geçici şifresi, doğrulama kodu şifresi, tek kullanımlık şifre gibi şifre bilgilerinin gönderileceği telefon numarasıdır. Şifre telefon\nzamanda iletişim amaçlı da kullanılabilecektir.\n² İletişim telefonu; Müşteri ile iletişim amaçlı (bilgilendirme,tanıtım ve sair) olarak kullanılacaktır.\n Bankamızca tarafınıza yapılacak bildirimler ile bankacılık işlem bilgileriniz için bu sayfada belirtmiş olduğunuz bilgileriniz esas alınacaktır."
+            },
+            {
+                "type": "title",
+                "coords": [
+                    588,
+                    63,
+                    1164,
+                    106
+                ],
+                "confidence": 0.5580460429191589,
+                "text": "BANKACILIK HİZMETLERİ SÖZLESMESİ"
+            }
+        ]
+    },
+    {
+        "page": 26,
+        "elements": [
+            {
+                "type": "table",
+                "coords": [
+                    47,
+                    169,
+                    1654,
+                    1188
+                ],
+                "confidence": 0.9810448884963989,
+                "num_rows": 13,
+                "num_cols": 4,
+                "cells": [
+                    {
+                        "row": 0,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            20,
+                            115,
+                            413,
+                            225
+                        ],
+                        "abs_coords": [
+                            67,
+                            284,
+                            460,
+                            394
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 0,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            323,
+                            115,
+                            800,
+                            225
+                        ],
+                        "abs_coords": [
+                            370,
+                            284,
+                            847,
+                            394
+                        ],
+                        "text": "Vergi Mükellefi Olunan Ülke"
+                    },
+                    {
+                        "row": 0,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            824,
+                            115,
+                            1192,
+                            225
+                        ],
+                        "abs_coords": [
+                            871,
+                            284,
+                            1239,
+                            394
+                        ],
+                        "text": "Vergi Kimlik Numarası"
+                    },
+                    {
+                        "row": 0,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1183,
+                            115,
+                            1568,
+                            225
+                        ],
+                        "abs_coords": [
+                            1230,
+                            284,
+                            1615,
+                            394
+                        ],
+                        "text": "Vergi Numarası bulunmuyorsa A,B veya C sebeplerinden birini giriniz."
+                    },
+                    {
+                        "row": 1,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            20,
+                            115,
+                            413,
+                            224
+                        ],
+                        "abs_coords": [
+                            67,
+                            284,
+                            460,
+                            393
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            323,
+                            115,
+                            800,
+                            224
+                        ],
+                        "abs_coords": [
+                            370,
+                            284,
+                            847,
+                            393
+                        ],
+                        "text": "Vergi Mükellefi Olunan Ülke"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            824,
+                            115,
+                            1192,
+                            224
+                        ],
+                        "abs_coords": [
+                            871,
+                            284,
+                            1239,
+                            393
+                        ],
+                        "text": "Vergi Kimlik Numarası"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1183,
+                            115,
+                            1568,
+                            224
+                        ],
+                        "abs_coords": [
+                            1230,
+                            284,
+                            1615,
+                            393
+                        ],
+                        "text": "Vergi Numarası bulunmuyorsa A,B veya C sebeplerinden birini giriniz."
+                    },
+                    {
+                        "row": 2,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            20,
+                            224,
+                            413,
+                            295
+                        ],
+                        "abs_coords": [
+                            67,
+                            393,
+                            460,
+                            464
+                        ],
+                        "text": "1."
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            323,
+                            224,
+                            800,
+                            295
+                        ],
+                        "abs_coords": [
+                            370,
+                            393,
+                            847,
+                            464
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            824,
+                            224,
+                            1192,
+                            295
+                        ],
+                        "abs_coords": [
+                            871,
+                            393,
+                            1239,
+                            464
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 2,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1183,
+                            224,
+                            1568,
+                            295
+                        ],
+                        "abs_coords": [
+                            1230,
+                            393,
+                            1615,
+                            464
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 3,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            20,
+                            227,
+                            413,
+                            295
+                        ],
+                        "abs_coords": [
+                            67,
+                            396,
+                            460,
+                            464
+                        ],
+                        "text": "1."
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            323,
+                            227,
+                            800,
+                            295
+                        ],
+                        "abs_coords": [
+                            370,
+                            396,
+                            847,
+                            464
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            824,
+                            227,
+                            1192,
+                            295
+                        ],
+                        "abs_coords": [
+                            871,
+                            396,
+                            1239,
+                            464
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 3,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1183,
+                            227,
+                            1568,
+                            295
+                        ],
+                        "abs_coords": [
+                            1230,
+                            396,
+                            1615,
+                            464
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 4,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            20,
+                            292,
+                            413,
+                            387
+                        ],
+                        "abs_coords": [
+                            67,
+                            461,
+                            460,
+                            556
+                        ],
+                        "text": "2."
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            323,
+                            292,
+                            800,
+                            387
+                        ],
+                        "abs_coords": [
+                            370,
+                            461,
+                            847,
+                            556
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            824,
+                            292,
+                            1192,
+                            387
+                        ],
+                        "abs_coords": [
+                            871,
+                            461,
+                            1239,
+                            556
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 4,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1183,
+                            292,
+                            1568,
+                            387
+                        ],
+                        "abs_coords": [
+                            1230,
+                            461,
+                            1615,
+                            556
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 5,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            20,
+                            379,
+                            413,
+                            475
+                        ],
+                        "abs_coords": [
+                            67,
+                            548,
+                            460,
+                            644
+                        ],
+                        "text": "3."
+                    },
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            323,
+                            379,
+                            800,
+                            475
+                        ],
+                        "abs_coords": [
+                            370,
+                            548,
+                            847,
+                            644
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            824,
+                            379,
+                            1192,
+                            475
+                        ],
+                        "abs_coords": [
+                            871,
+                            548,
+                            1239,
+                            644
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 5,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1183,
+                            379,
+                            1568,
+                            475
+                        ],
+                        "abs_coords": [
+                            1230,
+                            548,
+                            1615,
+                            644
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 6,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            20,
+                            383,
+                            413,
+                            483
+                        ],
+                        "abs_coords": [
+                            67,
+                            552,
+                            460,
+                            652
+                        ],
+                        "text": "3."
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            323,
+                            383,
+                            800,
+                            483
+                        ],
+                        "abs_coords": [
+                            370,
+                            552,
+                            847,
+                            652
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            824,
+                            383,
+                            1192,
+                            483
+                        ],
+                        "abs_coords": [
+                            871,
+                            552,
+                            1239,
+                            652
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 6,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1183,
+                            383,
+                            1568,
+                            483
+                        ],
+                        "abs_coords": [
+                            1230,
+                            552,
+                            1615,
+                            652
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 7,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            20,
+                            452,
+                            413,
+                            542
+                        ],
+                        "abs_coords": [
+                            67,
+                            621,
+                            460,
+                            711
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 7,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            323,
+                            452,
+                            800,
+                            542
+                        ],
+                        "abs_coords": [
+                            370,
+                            621,
+                            847,
+                            711
+                        ],
+                        "text": "|Hesap sahibinin belirtilen ülkelerde vergi numarası bulunmuyorsa uygun bir sebep belirtiniz. A, B veya C"
+                    },
+                    {
+                        "row": 7,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            824,
+                            452,
+                            1192,
+                            542
+                        ],
+                        "abs_coords": [
+                            871,
+                            621,
+                            1239,
+                            711
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 7,
+                        "col": 3,
+                        "is_header": true,
+                        "cell_coords": [
+                            1183,
+                            452,
+                            1568,
+                            542
+                        ],
+                        "abs_coords": [
+                            1230,
+                            621,
+                            1615,
+                            711
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 8,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            20,
+                            459,
+                            413,
+                            549
+                        ],
+                        "abs_coords": [
+                            67,
+                            628,
+                            460,
+                            718
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 8,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            323,
+                            459,
+                            800,
+                            549
+                        ],
+                        "abs_coords": [
+                            370,
+                            628,
+                            847,
+                            718
+                        ],
+                        "text": "|Hesap sahibinin belirtilen ülkelerde vergi numarası bulunmuyorsa uygun bir sebep belirtiniz. A, B veya C"
+                    },
+                    {
+                        "row": 8,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            824,
+                            459,
+                            1192,
+                            549
+                        ],
+                        "abs_coords": [
+                            871,
+                            628,
+                            1239,
+                            718
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 8,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1183,
+                            459,
+                            1568,
+                            549
+                        ],
+                        "abs_coords": [
+                            1230,
+                            628,
+                            1615,
+                            718
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 9,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            20,
+                            523,
+                            413,
+                            601
+                        ],
+                        "abs_coords": [
+                            67,
+                            692,
+                            460,
+                            770
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 9,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            323,
+                            523,
+                            800,
+                            601
+                        ],
+                        "abs_coords": [
+                            370,
+                            692,
+                            847,
+                            770
+                        ],
+                        "text": "Sebep - A Hesap sahibinin vergi ödemekle yükümlü olduğu ülke vatandaşlarına vergi numarası vermemektedir."
+                    },
+                    {
+                        "row": 9,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            824,
+                            523,
+                            1192,
+                            601
+                        ],
+                        "abs_coords": [
+                            871,
+                            692,
+                            1239,
+                            770
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 9,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1183,
+                            523,
+                            1568,
+                            601
+                        ],
+                        "abs_coords": [
+                            1230,
+                            692,
+                            1615,
+                            770
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 10,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            20,
+                            588,
+                            413,
+                            668
+                        ],
+                        "abs_coords": [
+                            67,
+                            757,
+                            460,
+                            837
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 10,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            323,
+                            588,
+                            800,
+                            668
+                        ],
+                        "abs_coords": [
+                            370,
+                            757,
+                            847,
+                            837
+                        ],
+                        "text": "|Sebep - B Hesap sahibi vergi numarası veya eşdeğer başka bir numara edinememektedir. (Bu sebebi seçtiyseniz"
+                    },
+                    {
+                        "row": 10,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            824,
+                            588,
+                            1192,
+                            668
+                        ],
+                        "abs_coords": [
+                            871,
+                            757,
+                            1239,
+                            837
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 10,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1183,
+                            588,
+                            1568,
+                            668
+                        ],
+                        "abs_coords": [
+                            1230,
+                            757,
+                            1615,
+                            837
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 11,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            20,
+                            648,
+                            413,
+                            745
+                        ],
+                        "abs_coords": [
+                            67,
+                            817,
+                            460,
+                            914
+                        ],
+                        "text": "1."
+                    },
+                    {
+                        "row": 11,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            323,
+                            648,
+                            800,
+                            745
+                        ],
+                        "abs_coords": [
+                            370,
+                            817,
+                            847,
+                            914
+                        ],
+                        "text": "|aşağıdaki tabloda neden vergi numarası almadığınızı açıklayınız.)"
+                    },
+                    {
+                        "row": 11,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            824,
+                            648,
+                            1192,
+                            745
+                        ],
+                        "abs_coords": [
+                            871,
+                            817,
+                            1239,
+                            914
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 11,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1183,
+                            648,
+                            1568,
+                            745
+                        ],
+                        "abs_coords": [
+                            1230,
+                            817,
+                            1615,
+                            914
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 12,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            20,
+                            823,
+                            413,
+                            910
+                        ],
+                        "abs_coords": [
+                            67,
+                            992,
+                            460,
+                            1079
+                        ],
+                        "text": "3."
+                    },
+                    {
+                        "row": 12,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            323,
+                            823,
+                            800,
+                            910
+                        ],
+                        "abs_coords": [
+                            370,
+                            992,
+                            847,
+                            1079
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 12,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            824,
+                            823,
+                            1192,
+                            910
+                        ],
+                        "abs_coords": [
+                            871,
+                            992,
+                            1239,
+                            1079
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 12,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            1183,
+                            823,
+                            1568,
+                            910
+                        ],
+                        "abs_coords": [
+                            1230,
+                            992,
+                            1615,
+                            1079
+                        ],
+                        "text": ""
+                    }
+                ],
+                "raw_text": "Aşağıdaki tabloyu vergi mükellefi olduğunuz ülkeleri ve bu ülkelerdeki vergi numarası bilgilerinizi belirterek \n|doldurunuz.\nVergi Numarası\nVergi Kimlik Numarası\nVergi Mükellefi Olunan Ülke\nbulunmuyorsa A,B veya C\n sebeplerinden birini giriniz.\n1.\n2.\n3.\n|Hesap sahibinin belirtilen ülkelerde vergi numarası bulunmuyorsa uygun bir sebep belirtiniz. A, B veya C\nSebep - A Hesap sahibinin vergi ödemekle yükümlü olduğu ülke vatandaşlarına vergi numarası vermemektedir.\n|Sebep - B Hesap sahibi vergi numarası veya eşdeğer başka bir numara edinememektedir. (Bu sebebi seçtiyseniz \n|aşağıdaki tabloda neden vergi numarası almadığınızı açıklayınız.)\n1.\n2.\n3.\nSebep - C Vergi numarası gerekmemektedir. (Sadece yukarıda vergi  mükellefiyeti belirtilen ülkenin yetkili\n|makamlarının vergi numarasının açıklanmasını gerekli görmemesi durumunda bu sebebi seçiniz."
+            },
+            {
+                "type": "title",
+                "coords": [
+                    588,
+                    63,
+                    1164,
+                    106
+                ],
+                "confidence": 0.38856035470962524,
+                "text": "BANKACILIK HİZMETLERİ SÖZLESMESİ"
+            }
+        ]
+    },
+    {
+        "page": 27,
+        "elements": [
+            {
+                "type": "table",
+                "coords": [
+                    57,
+                    149,
+                    1652,
+                    1780
+                ],
+                "confidence": 0.9645630121231079,
+                "num_rows": 7,
+                "num_cols": 3,
+                "cells": [
+                    {
+                        "row": 0,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            99,
+                            60,
+                            275,
+                            112
+                        ],
+                        "abs_coords": [
+                            156,
+                            209,
+                            332,
+                            261
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 0,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            259,
+                            60,
+                            1343,
+                            112
+                        ],
+                        "abs_coords": [
+                            316,
+                            209,
+                            1400,
+                            261
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 0,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            1334,
+                            60,
+                            1549,
+                            112
+                        ],
+                        "abs_coords": [
+                            1391,
+                            209,
+                            1606,
+                            261
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 1,
+                        "col": 0,
+                        "is_header": true,
+                        "cell_coords": [
+                            99,
+                            63,
+                            275,
+                            115
+                        ],
+                        "abs_coords": [
+                            156,
+                            212,
+                            332,
+                            264
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "is_header": true,
+                        "cell_coords": [
+                            259,
+                            63,
+                            1343,
+                            115
+                        ],
+                        "abs_coords": [
+                            316,
+                            212,
+                            1400,
+                            264
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "is_header": true,
+                        "cell_coords": [
+                            1334,
+                            63,
+                            1549,
+                            115
+                        ],
+                        "abs_coords": [
+                            1391,
+                            212,
+                            1606,
+                            264
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 2,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            99,
+                            116,
+                            275,
+                            270
+                        ],
+                        "abs_coords": [
+                            156,
+                            265,
+                            332,
+                            419
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 2,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            259,
+                            116,
+                            1343,
+                            270
+                        ],
+                        "abs_coords": [
+                            316,
+                            265,
+                            1400,
+                            419
+                        ],
+                        "text": "Banka ALBARAKA TURK KATILIM BANKASI A.Ş. Inkılap Mh. Dr. Adnan Büyükdeniz Cad. No:6 Umraniye Istanbul, İstanbul Ticaret Sicil 206671, Mersis: 0047000870200019, www.albaraka.com.tr, albarakaturk@hs03.kep.tr,"
+                    },
+                    {
+                        "row": 2,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            1334,
+                            116,
+                            1549,
+                            270
+                        ],
+                        "abs_coords": [
+                            1391,
+                            265,
+                            1606,
+                            419
+                        ],
+                        "text": "Müşteri"
+                    },
+                    {
+                        "row": 3,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            99,
+                            291,
+                            275,
+                            428
+                        ],
+                        "abs_coords": [
+                            156,
+                            440,
+                            332,
+                            577
+                        ],
+                        "text": "uekəç\neulv eslim"
+                    },
+                    {
+                        "row": 3,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            259,
+                            291,
+                            1343,
+                            428
+                        ],
+                        "abs_coords": [
+                            316,
+                            440,
+                            1400,
+                            577
+                        ],
+                        "text": "0850 222 5 666 Teslim aldığınız sözleşme ile ilgili yandaki kutucuğa el yazınızla “Sözleşmenin bir nüshasını elden aldım”/ “Kalıcı veri saklayıcısı aracılığıyla teslim aldım” yazarak imzalamanızı istirham ederiz."
+                    },
+                    {
+                        "row": 3,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            1334,
+                            291,
+                            1549,
+                            428
+                        ],
+                        "abs_coords": [
+                            1391,
+                            440,
+                            1606,
+                            577
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 4,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            99,
+                            424,
+                            275,
+                            994
+                        ],
+                        "abs_coords": [
+                            156,
+                            573,
+                            332,
+                            1143
+                        ],
+                        "text": "ktroni icari İleti"
+                    },
+                    {
+                        "row": 4,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            259,
+                            424,
+                            1343,
+                            994
+                        ],
+                        "abs_coords": [
+                            316,
+                            573,
+                            1400,
+                            1143
+                        ],
+                        "text": "aracılığıyla teslim aldım” yazarak imzalamanızı istirham ederiz. Albaraka Türk Katılım Bankası A.Ş. (“Banka”) (MERSİS Numarası 0047000870200019); kişisel verilerinizi, “https://www.albaraka.com.tr/kisisel-verilerin-korunmasi-kanunu.aspx” internet adresi üzerinden erişebileceğiniz Kişisel Verilerin Korunması |Kanun Uyarınca Aydınlatma Yazısı ile Albaraka Türk Katılım Bankası A.Ş. |Kişisel Verilerin Korunması ve Işlenmesi Politikası’nda açıklanan şekilde, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"Kanun\") ve ilgili mevzuat hükümleri çerçevesinde işlemektedir. Ayrıca, aşağıda belirtilen kapsamda, kimlik ve iletişim verileriniz ticari elektronik ileti gönderilmesi amacıyla sınırlı olarak açık rızanıza dayalı şekilde işlenecektir. Telefon, çağrı merkezleri, faks, otomatik arama makineleri, akıllı ses kaydedici sistemler, elektronik posta, kısa mesaj hizmeti gibi vasıtalar |kullanılarak elektronik ortamda gerçekleştirilen ve ticari amaçlarla gönderilen veri, ses ve görüntü içerikli iletiler ticari elektronik ileti olarak tanımlanmaktadır. Banka; ürünlere veya hizmetlere bağlılık oluşturulması, çapraz satış, dijital ve/veya diğer mecralarda pazarlama"
+                    },
+                    {
+                        "row": 4,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            1334,
+                            424,
+                            1549,
+                            994
+                        ],
+                        "abs_coords": [
+                            1391,
+                            573,
+                            1606,
+                            1143
+                        ],
+                        "text": "Onaylıyorum"
+                    },
+                    {
+                        "row": 5,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            99,
+                            744,
+                            275,
+                            1460
+                        ],
+                        "abs_coords": [
+                            156,
+                            893,
+                            332,
+                            1609
+                        ],
+                        "text": "ktroni icari İleti"
+                    },
+                    {
+                        "row": 5,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            259,
+                            744,
+                            1343,
+                            1460
+                        ],
+                        "abs_coords": [
+                            316,
+                            893,
+                            1400,
+                            1609
+                        ],
+                        "text": "gönderilmesi amacıyla sınırlı olarak açık rızanıza dayalı şekilde işlenecektir. Telefon, çağrı merkezleri, faks, otomatik arama makineleri, akıllı ses kaydedici sistemler, elektronik posta, kısa mesaj hizmeti gibi vasıtalar |kullanılarak elektronik ortamda gerçekleştirilen ve ticari amaçlarla gönderilen veri, ses ve görüntü içerikli iletiler ticari elektronik ileti olarak tanımlanmaktadır. Banka; ürünlere veya hizmetlere bağlılık oluşturulması, çapraz satış, dijital ve/veya diğer mecralarda pazarlama lve tanıtım/reklam aktiviteleri, kampanya, promosyon, kişiye özel pazarlama ve tanıtım aktiviteleri amaçlarıyla ticari elektronik ileti göndermek için, kimlik ve iletişim verilerini işlemektedir. Ticari elektronik ileti gönderilmesi kapsamında işlenen bu kişisel veriler; üçüncü taraflara aktarılmamakta, ilgili mevzuatta öngörülen süre kadar |muhafaza edilmekte ve ilgili mevzuatta öngörülen sürenin dolması sonucu imha edilmektedir. |Yukarıda ve Banka'nın Kişisel Verilerin Korunması Kanun Uyarınca| Aydınlatma Yazısı ile tarafıma yapılan bilgilendirme doğrultusunda, Banka'nın; gerek Bankanız'a ait ve gerekse de ticari iş ortaklarınız, liştirakleriniz veya üçüncü kişilere ait mal, ürün, hizmet, kampanya, lreklam, pazarlama ve diğer hususlarda telefon, çağrı merkezi, faks, otomatik arama makineleri, elektronik posta, kısa mesaj ve diğer vasıtalarla tarafıma ticari elektronik ileti gönderebilmesini, bu kapsamda kimlik ve iletişim verilerimi işlemesini;"
+                    },
+                    {
+                        "row": 5,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            1334,
+                            744,
+                            1549,
+                            1460
+                        ],
+                        "abs_coords": [
+                            1391,
+                            893,
+                            1606,
+                            1609
+                        ],
+                        "text": "Onaylamıyorum"
+                    },
+                    {
+                        "row": 6,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            99,
+                            1457,
+                            275,
+                            1582
+                        ],
+                        "abs_coords": [
+                            156,
+                            1606,
+                            332,
+                            1731
+                        ],
+                        "text": "nkacılı nterne"
+                    },
+                    {
+                        "row": 6,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            259,
+                            1457,
+                            1343,
+                            1582
+                        ],
+                        "abs_coords": [
+                            316,
+                            1606,
+                            1400,
+                            1731
+                        ],
+                        "text": "Banka’nın İnternet, Mobil ve Telefon Bankacılığı ’nı tüm işlemlere yetkili olarak kullanmak istiyorum. İnternet, Mobil Bankacılık ve Telefon Bankacılığı şifremi, BHS md. 30’daki Şifre Telefonu’ma SMS"
+                    },
+                    {
+                        "row": 6,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            1334,
+                            1457,
+                            1549,
+                            1582
+                        ],
+                        "abs_coords": [
+                            1391,
+                            1606,
+                            1606,
+                            1731
+                        ],
+                        "text": ""
+                    }
+                ],
+                "raw_text": "Sözleşme\nTarihi\nBanka\nMüşteri\nALBARAKA TURK KATILIM BANKASI A.Ş.\nizleşme\n mzası\nInkılap Mh. Dr. Adnan Büyükdeniz Cad. No:6 Umraniye Istanbul, İstanbul Ticaret Sicil\n206671, Mersis: 0047000870200019, www.albaraka.com.tr, albarakaturk@hs03.kep.tr,\n0850 222 5 666\nTeslim aldığınız sözleşme ile ilgili yandaki kutucuğa el yazınızla\nuekəç\neulv\neslim\n“Sözleşmenin bir nüshasını elden aldım”/ “Kalıcı veri saklayıcısı\naracılığıyla teslim aldım” yazarak imzalamanızı istirham ederiz.\nAlbaraka Türk Katılım Bankası A.Ş. (“Banka”) (MERSİS Numarası\n0047000870200019); kişisel verilerinizi,\n“https://www.albaraka.com.tr/kisisel-verilerin-korunmasi-kanunu.aspx”\ninternet adresi üzerinden erişebileceğiniz Kişisel Verilerin Korunması\n|Kanun Uyarınca Aydınlatma Yazısı ile Albaraka Türk Katılım Bankası A.Ş.\n|Kişisel Verilerin Korunması ve Işlenmesi Politikası’nda açıklanan şekilde,\n6698 sayılı Kişisel Verilerin Korunması Kanunu (\"Kanun\") ve ilgili\nmevzuat hükümleri çerçevesinde işlemektedir. Ayrıca, aşağıda belirtilen\nOnaylıyorum\nkapsamda, kimlik ve iletişim verileriniz ticari elektronik ileti\ngönderilmesi amacıyla sınırlı olarak açık rızanıza dayalı şekilde\nişlenecektir.\nTelefon, çağrı merkezleri, faks, otomatik arama makineleri, akıllı ses\nyan, Onay ve Rızala\nkaydedici sistemler, elektronik posta, kısa mesaj hizmeti gibi vasıtalar\n|kullanılarak elektronik ortamda gerçekleştirilen ve ticari amaçlarla\nktroni\ngönderilen veri, ses ve görüntü içerikli iletiler ticari elektronik ileti olarak\nicari\ntanımlanmaktadır. Banka; ürünlere veya hizmetlere bağlılık\nİleti\noluşturulması, çapraz satış, dijital ve/veya diğer mecralarda pazarlama\nlve tanıtım/reklam aktiviteleri, kampanya, promosyon, kişiye özel\npazarlama ve tanıtım aktiviteleri amaçlarıyla ticari elektronik ileti\ngöndermek için, kimlik ve iletişim verilerini işlemektedir. Ticari\nelektronik ileti gönderilmesi kapsamında işlenen bu kişisel veriler;\nüçüncü taraflara aktarılmamakta, ilgili mevzuatta öngörülen süre kadar\n|muhafaza edilmekte ve ilgili mevzuatta öngörülen sürenin dolması\nsonucu imha edilmektedir.\nOnaylamıyorum\n|Yukarıda ve Banka'nın Kişisel Verilerin Korunması Kanun Uyarınca|\nAydınlatma Yazısı ile tarafıma yapılan bilgilendirme doğrultusunda,\nBanka'nın; gerek Bankanız'a ait ve gerekse de ticari iş ortaklarınız,\nliştirakleriniz veya üçüncü kişilere ait mal, ürün, hizmet, kampanya,\nlreklam, pazarlama ve diğer hususlarda telefon, çağrı merkezi, faks,\notomatik arama makineleri, elektronik posta, kısa mesaj ve diğer\nvasıtalarla tarafıma ticari elektronik ileti gönderebilmesini, bu\nkapsamda kimlik ve iletişim verilerimi işlemesini;\nBanka’nın İnternet, Mobil ve Telefon Bankacılığı ’nı tüm işlemlere yetkili\nnkacılı\nnterne\nolarak kullanmak istiyorum. İnternet, Mobil Bankacılık ve Telefon\nBankacılığı şifremi, BHS md. 30’daki Şifre Telefonu’ma SMS\ngöndermenizi talep ediyorum."
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    65,
+                    1161,
+                    105
+                ],
+                "confidence": 0.3860534429550171,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    },
+    {
+        "page": 28,
+        "elements": [
+            {
+                "type": "table",
+                "coords": [
+                    118,
+                    173,
+                    1651,
+                    2119
+                ],
+                "confidence": 0.8550196290016174,
+                "num_rows": 2,
+                "num_cols": 2,
+                "cells": [
+                    {
+                        "row": 0,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            166,
+                            70,
+                            1234,
+                            1229
+                        ],
+                        "abs_coords": [
+                            284,
+                            243,
+                            1352,
+                            1402
+                        ],
+                        "text": "Bankası A.Ş. Kişisel Verilerin Korunması Kanunu Uyarınca Aydınlatma |Metninde açıklanan şekilde, 6698 sayılı Kişisel Verilerin Korunması |Kanunu (“Kanun”) ve ilgili mevzuat hükümlerine uygun olarak |işlemekte ve korumaktadır.Kanun, kişisel verilerinizin işlenmesi için açık lrıza veya açık rızanın aranmadığı diğer kişisel veri işleme şartlarını düzenlemektedir. Kanun'un 5.2'nci ve 6.3'üncü maddelerinde |düzenlenen ve açık rızanıza başvurulmasını gerektiren kişisel veri |işleme faaliyetlerimize konu kimlik, iletişim, müşteri işlem, finans, |mesleki deneyim, pazarlama, işlem güvenliği ve özel nitelikli kişisel verileriniz; • Biyometrik imza, imza sahiplerinin belirli biyometrik verilerini |kullanarak imzalarını özel bir tablet/ped üzerinde oluşturmaları ve |genellikle bu verilerin imzalanan belgeye çözülemez biçimden |bağlanmasıyla elde edilmektedir. Biyometrik imza çözümleri belirli bir| standart çerçevesinde tanımlanmadığından farklı kurgusal özelliklere sahiptir ve ıslak imza ile denk sayılmamaktadır. Biyometrik imza imzanın dinamik özelliklerini (imzanın nasıl oluştuğu) dikkate almaktadır. Bu |doğrultuda, biyometrik imzanın analizinde, biyometrik imza esnasında uygulanan basıncın miktarı, yazma açısı, kalemin hızı ve ivmesi, |harflerin oluşumu, imzanın yönü ve benzer diğer kişinin sahip olduğu |benzersiz dinamik özellikler kullanılmaktadır. Bu itibarla, biyometrik |imza biyometrik veri niteliğine haiz olup, işlem güvenliğinin lsağlanması, işlem yapan kişinin kimliğinin doğrulanması ve yetki kontrolünün yapılması, |• Sunulan ürün ve hizmet kalitesinin artırılması, tanıtımı ver pazarlanması, ürün çalışmaları, müşteriye hitap eden ürün ve |hizmetlerin tespiti; müşteri memnuniyeti çalışmaları, verim ve karlılık artırılması, bilgi araştırmaları, modelleme, anket ve diğer suretlerle |beğeni ve değerlendirmelerinizin alınması, ölçülmesi, yine analiz, raporlama ve değerlendirme yapılması, müşteri bağlılığı çalışmaları, |basılı olsun olmasın yayın/promosyon gönderilmesi, kampanya lyönetimi, ar-ge faaliyetleri, mobil bankācılık işlem güvenliğinin sağlanması vē iletişim kurulabilmesi,• Bankacılık Hizmetlerinin |Erişilebilirliğine Dair Yönetmelik uyarınca, beyan edilmesi halinde engellilik durumu bilgisinin bankacılık hizmetlerinin engelli müşterilerin erişim ve kullanımına uygun hale getirilmesiamaçlarıylar sınırlı olarak açık rızanıza dayalı şekilde İşlenecektİr. | Açık Rıza Beyanı"
+                    },
+                    {
+                        "row": 0,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            1233,
+                            70,
+                            1490,
+                            1229
+                        ],
+                        "abs_coords": [
+                            1351,
+                            243,
+                            1608,
+                            1402
+                        ],
+                        "text": "Açık Rızam Vardır"
+                    },
+                    {
+                        "row": 1,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            166,
+                            422,
+                            1234,
+                            1954
+                        ],
+                        "abs_coords": [
+                            284,
+                            595,
+                            1352,
+                            2127
+                        ],
+                        "text": "|kullanarak imzalarını özel bir tablet/ped üzerinde oluşturmaları ve |genellikle bu verilerin imzalanan belgeye çözülemez biçimden |bağlanmasıyla elde edilmektedir. Biyometrik imza çözümleri belirli bir| standart çerçevesinde tanımlanmadığından farklı kurgusal özelliklere sahiptir ve ıslak imza ile denk sayılmamaktadır. Biyometrik imza imzanın dinamik özelliklerini (imzanın nasıl oluştuğu) dikkate almaktadır. Bu |doğrultuda, biyometrik imzanın analizinde, biyometrik imza esnasında uygulanan basıncın miktarı, yazma açısı, kalemin hızı ve ivmesi, |harflerin oluşumu, imzanın yönü ve benzer diğer kişinin sahip olduğu |benzersiz dinamik özellikler kullanılmaktadır. Bu itibarla, biyometrik |imza biyometrik veri niteliğine haiz olup, işlem güvenliğinin lsağlanması, işlem yapan kişinin kimliğinin doğrulanması ve yetki kontrolünün yapılması, |• Sunulan ürün ve hizmet kalitesinin artırılması, tanıtımı ver pazarlanması, ürün çalışmaları, müşteriye hitap eden ürün ve |hizmetlerin tespiti; müşteri memnuniyeti çalışmaları, verim ve karlılık artırılması, bilgi araştırmaları, modelleme, anket ve diğer suretlerle |beğeni ve değerlendirmelerinizin alınması, ölçülmesi, yine analiz, raporlama ve değerlendirme yapılması, müşteri bağlılığı çalışmaları, |basılı olsun olmasın yayın/promosyon gönderilmesi, kampanya lyönetimi, ar-ge faaliyetleri, mobil bankācılık işlem güvenliğinin sağlanması vē iletişim kurulabilmesi,• Bankacılık Hizmetlerinin |Erişilebilirliğine Dair Yönetmelik uyarınca, beyan edilmesi halinde engellilik durumu bilgisinin bankacılık hizmetlerinin engelli müşterilerin erişim ve kullanımına uygun hale getirilmesiamaçlarıylar sınırlı olarak açık rızanıza dayalı şekilde İşlenecektİr. | Açık Rıza Beyanı |Veri sahibi olarak yukarıda tarafıma yapılan bilgilendirmeler doğrultusunda, kimlik, iletişim, müşteri işlem, finans, mesleki deneyim, pazarlama ve işlem güvenliği verilerimin, ürün ve hizmet kalitesinin artırılması, tanıtımı ve pazarlanması, ürün çalışmaları, müşteriye hitap eden ürün ve hizmetlerin tespiti; müşteri memnuniyeti çalışmaları, verim ve karlılık artırılması, bilgi araştırmaları, modelleme, anket vel |diğer suretlerle beğeni ve değērlendirmelerimin alınması, ölçülmesi, lyine analiz, raporlama ve değerlendirme yapılması, müşteri bağlılığı çalışmaları, basılı olsun olmasın yayın/promosyon gönderilmesi, kampanya yönetimi, ar-ge faaliyetleri, mobil bankacılık işlem güvenliğinin sağlanması ve iletişim kurulabilmesi amaçlarıyla, beyan etmem halinde engellilik durumumun bankacılık hizmetlerinin engelli müşterilerin erişim ve kullanımına uygun hale getirilmesi amacıyla lişlemenize ve yine Banka'nızın ortaklarına, bağlı ortaklıklarınıza, ana ortaklığınıza, doğrudan ve dolaylı iştiraklerinize, Bankacılık Kanununa |göre kredi kuruluşları ve finansal kuruluşlara, doğrudan ve dolaylı işl lilişkisine girdiğiniz gerçek ve tüzel kişilere, hizmet aldığınız ve |verdiğiniz gerçek ve tüzel kişilere yurt içinde ve yurt dışında aktarabilmenize; |Ozel nitelikli kişisel verim olan engellilik durumumun, bankacılık |hizmetlerini engelli müşterilerin erişim ve kullanımıma uygun hale| getirilmesi amacıyla işlemenize;"
+                    },
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            1233,
+                            422,
+                            1490,
+                            1954
+                        ],
+                        "abs_coords": [
+                            1351,
+                            595,
+                            1608,
+                            2127
+                        ],
+                        "text": "Açık Rızam Vardır Açık Rızam Yoktur"
+                    }
+                ],
+                "raw_text": "Bankamız, kişisel verilerinizi Albaraka Türk Katılım Bankası A.Ş. Kişisel\n|Verilerin Korunması ve Işlenmesi Politikası ile Albaraka Türk Katılım\nBankası A.Ş. Kişisel Verilerin Korunması Kanunu Uyarınca Aydınlatma\n|Metninde açıklanan şekilde, 6698 sayılı Kişisel Verilerin Korunması\n|Kanunu (“Kanun”) ve ilgili mevzuat hükümlerine uygun olarak\n|işlemekte ve korumaktadır.Kanun, kişisel verilerinizin işlenmesi için açık\nlrıza veya açık rızanın aranmadığı diğer kişisel veri işleme şartlarını\ndüzenlemektedir. Kanun'un 5.2'nci ve 6.3'üncü maddelerinde\n|düzenlenen ve açık rızanıza başvurulmasını gerektiren kişisel veri\n|işleme faaliyetlerimize konu kimlik, iletişim, müşteri işlem, finans,\n|mesleki deneyim, pazarlama, işlem güvenliği ve özel nitelikli kişisel\nverileriniz;\n• Biyometrik imza, imza sahiplerinin belirli biyometrik verilerini\n|kullanarak imzalarını özel bir tablet/ped üzerinde oluşturmaları ve\n|genellikle bu verilerin imzalanan belgeye çözülemez biçimden\nAçık Rızam Vardır\n|bağlanmasıyla elde edilmektedir. Biyometrik imza çözümleri belirli bir|\nstandart çerçevesinde tanımlanmadığından farklı kurgusal özelliklere\nsahiptir ve ıslak imza ile denk sayılmamaktadır. Biyometrik imza imzanın\ndinamik özelliklerini (imzanın nasıl oluştuğu) dikkate almaktadır. Bu\n|doğrultuda, biyometrik imzanın analizinde, biyometrik imza esnasında\nuygulanan basıncın miktarı, yazma açısı, kalemin hızı ve ivmesi,\n|harflerin oluşumu, imzanın yönü ve benzer diğer kişinin sahip olduğu\n|benzersiz dinamik özellikler kullanılmaktadır. Bu itibarla, biyometrik\n|imza biyometrik veri niteliğine haiz olup, işlem güvenliğinin\nlsağlanması, işlem yapan kişinin kimliğinin doğrulanması ve yetki\nkontrolünün yapılması,\n|• Sunulan ürün ve hizmet kalitesinin artırılması, tanıtımı ver\npazarlanması, ürün çalışmaları, müşteriye hitap eden ürün ve\n|hizmetlerin tespiti; müşteri memnuniyeti çalışmaları, verim ve karlılık\nişisel Veri\n Açık Rıza\nartırılması, bilgi araştırmaları, modelleme, anket ve diğer suretlerle\n|beğeni ve değerlendirmelerinizin alınması, ölçülmesi, yine analiz,\nraporlama ve değerlendirme yapılması, müşteri bağlılığı çalışmaları,\n|basılı olsun olmasın yayın/promosyon gönderilmesi, kampanya\nlyönetimi, ar-ge faaliyetleri, mobil bankācılık işlem güvenliğinin\nsağlanması vē iletişim kurulabilmesi,• Bankacılık Hizmetlerinin\n|Erişilebilirliğine Dair Yönetmelik uyarınca, beyan edilmesi halinde\nengellilik durumu bilgisinin bankacılık hizmetlerinin engelli\nmüşterilerin erişim ve kullanımına uygun hale getirilmesiamaçlarıylar\nsınırlı olarak açık rızanıza dayalı şekilde İşlenecektİr.\n| Açık Rıza Beyanı \n|Veri sahibi olarak yukarıda tarafıma yapılan bilgilendirmeler\ndoğrultusunda, kimlik, iletişim, müşteri işlem, finans, mesleki deneyim,\npazarlama ve işlem güvenliği verilerimin, ürün ve hizmet kalitesinin\nartırılması, tanıtımı ve pazarlanması, ürün çalışmaları, müşteriye hitap\neden ürün ve hizmetlerin tespiti; müşteri memnuniyeti çalışmaları,\nverim ve karlılık artırılması, bilgi araştırmaları, modelleme, anket vel\nAçık Rızam\n|diğer suretlerle beğeni ve değērlendirmelerimin alınması, ölçülmesi,\nYoktur\nlyine analiz, raporlama ve değerlendirme yapılması, müşteri bağlılığı\nçalışmaları, basılı olsun olmasın yayın/promosyon gönderilmesi,\nkampanya yönetimi, ar-ge faaliyetleri, mobil bankacılık işlem\ngüvenliğinin sağlanması ve iletişim kurulabilmesi amaçlarıyla, beyan\netmem halinde engellilik durumumun bankacılık hizmetlerinin engelli\nmüşterilerin erişim ve kullanımına uygun hale getirilmesi amacıyla\nlişlemenize ve yine Banka'nızın ortaklarına, bağlı ortaklıklarınıza, ana\nortaklığınıza, doğrudan ve dolaylı iştiraklerinize, Bankacılık Kanununa\n|göre kredi kuruluşları ve finansal kuruluşlara, doğrudan ve dolaylı işl\nlilişkisine girdiğiniz gerçek ve tüzel kişilere, hizmet aldığınız ve\n|verdiğiniz gerçek ve tüzel kişilere yurt içinde ve yurt dışında\naktarabilmenize;\n|Ozel nitelikli kişisel verim olan engellilik durumumun, bankacılık\n|hizmetlerini engelli müşterilerin erişim ve kullanımıma uygun hale|\ngetirilmesi amacıyla işlemenize;"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    589,
+                    65,
+                    1160,
+                    105
+                ],
+                "confidence": 0.4095214009284973,
+                "text": "BANKACILIK HİZMETLERİ SÖZLEŞMESİ"
+            }
+        ]
+    }
+]

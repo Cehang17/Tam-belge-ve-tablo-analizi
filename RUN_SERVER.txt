@@ -1,0 +1,9 @@
+# Çalıştırmak için: 
+# - VS Code'da: Ctrl+` (terminal aç) veya Terminal > New Terminal
+# - Aşağıdaki komutu yapıştır ve Enter'a bas:
+
+cd "c:\Users\HASAN_WIN11\OneDrive\Masaüstü\Staj Çalışmalar\layoutWorking" && "C:\Users\HASAN_WIN11\AppData\Local\Programs\Python\Python310\python.exe" -m pip install flask werkzeug flask-cors -q && "C:\Users\HASAN_WIN11\AppData\Local\Programs\Python\Python310\python.exe" app.py
+
+# VEYA daha basit:
+
+cd "c:\Users\HASAN_WIN11\OneDrive\Masaüstü\Staj Çalışmalar\layoutWorking" && python app.py

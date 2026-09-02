@@ -1,0 +1,310 @@
+[
+    {
+        "page": 1,
+        "full_text": "74 ? ZiraatDinamik\nTEMEL BANKACILIK ÜRÜN BİLGİ FORMU\nBu Form, tarafınızla akdedilen Mevduat Hesabı Sözleşmesinin ayrılmaz bir parçası olup, işbu \nFormda belirtilmeyen diğer hususlarda Mevduat Hesabı Sözleşmesindeki hükümler geçerlidir.\nÜRÜNÜN ADI : Vadesiz Türk Lirası (TL)/Yabancı Para (YP) Mevduat Hesabı\nTAHSİL EDİLECEK ÜCRET, MASRAF VE KOMİSYON TUTARLARI:\nTAHSİLAT PERİYODU\nİŞLEM/KANAL\nMASRAFIN ADI\nMASRAF TUTARI\nInternet\nsitemizde\nilan edilen “Bankacılık\nHizmetleri ile Kredi\nSWIFT\nÜcret ve Komisyonları\nTablosu”nda yer alan\nEkstre Ücreti\nİşlem Başına\nücret tahsil edilir.\nGönderim\nKanalı\nPosta\nmaliyeti kadar tahsil\nFaks\nedilir.\nÜCRETLERİN GEÇERLİLİK SÜRESİ VE DEĞİŞİKLİK BİLDİRİMLERİ:\nBu bilgi formunda yer alan ücretler, bir takvim yılı içerisinde azami Türkiye İstatistik Kurumunca \nbir önceki yılsonu itibariyle açıklanan yıllık tüketici fiyatları endeksi artış oranında artırılabilir.\nBankamız tarafından ücret artışı yapılırken artış uygulanmaya başlanmadan en az otuz gün önce\ntarafınıza yazılı olarak ya da eposta, ATM, telefon, kısa mesaj veya benzeri araçlarla\nbildirilecektir. Bildirim tarihinden sonraki 15 gün içinde ürünün veya hizmetin kullanımından\nvazgeçme hakkınız bulunmaktadır. Bu hakkın kullanılması halinde tarafınızdan hiçbir şekilde\nyeni döneme ait ek bir ücret tahsil edilmeyecektir. Ürün veya hizmetin kullanımıyla ilgili ücret\ndeğişikliğinin kabul edilmemesi durumunda Bankanın bu hizmeti vermeyi durdurma hakkı saklı\nolup, düzenli ödeme / otomatik ödeme vb. talimatının gerçekleşmemesinden kaynaklı olarak\nBankanın herhangi bir sorumluluğu söz konusu olmayacaktır.\nÜrünü kullanmaya veya hizmeti almaya devam etmeniz halinde, değişikliğin kabul edildiği\nvarsayılır ve ücret artışı uygulanır.\nTAHSİLAT ŞEKLİ:\nÜrün ve hizmet tipine göre, nakden veya hesaben veya kredili mevduat hesabının limitinden\ntahsil edilmek suretiyle yapılır.\nYukarıda özetlenen konular dışında her türlü detaylı bilgi Mevduat Hesabı Sözleşmesinde yer\nalmakta olup yer almakta olup işbu sözleşme ve Formu Bankalarca Kullanılacak Uzaktan Kimlik\nTespiti Yöntemlerine ve Elektronik Ortamda Sözleşme İlişkisinin Kurulmasına İlişkin Yönetmelik\nile Bankaların Bilgi Sistemleri ve Elektronik Bankacılık Hizmetleri Hakkında Yönetmelik ve sair\nilgili mevzuat uyarınca akdeden Müşteri, yukarıdaki hususları okuyup anladığını, özgür irade\nsonucu bu sözleşmeyi akdettiğini ve sözleşmenin bir nüshasının internet bankacılığı ya da\nmobil bankacılık dağıtım kanalları üzerinden kendisine iletildiğini kabul ve taahhüt eder.\nMüşterinin Adı Soyadı\nTarih:",
+        "elements": [
+            {
+                "type": "abandon",
+                "coords": [
+                    86,
+                    74,
+                    534,
+                    139
+                ],
+                "confidence": 0.9129381775856018,
+                "text": "74 ? ZiraatDinamik"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    596,
+                    176,
+                    1155,
+                    219
+                ],
+                "confidence": 0.9013012647628784,
+                "text": "TEMEL BANKACILIK ÜRÜN BİLGİ FORMU"
+            },
+            {
+                "type": "plain text",
+                "coords": [
+                    174,
+                    261,
+                    1458,
+                    341
+                ],
+                "confidence": 0.9457760453224182,
+                "text": "Bu Form, tarafınızla akdedilen Mevduat Hesabı Sözleşmesinin ayrılmaz bir parçası olup, işbu \nFormda belirtilmeyen diğer hususlarda Mevduat Hesabı Sözleşmesindeki hükümler geçerlidir."
+            },
+            {
+                "type": "plain text",
+                "coords": [
+                    175,
+                    360,
+                    1180,
+                    443
+                ],
+                "confidence": 0.9108856320381165,
+                "text": "ÜRÜNÜN ADI : Vadesiz Türk Lirası (TL)/Yabancı Para (YP) Mevduat Hesabı\nTAHSİL EDİLECEK ÜCRET, MASRAF VE KOMİSYON TUTARLARI:"
+            },
+            {
+                "type": "table",
+                "coords": [
+                    183,
+                    480,
+                    1466,
+                    935
+                ],
+                "confidence": 0.9877392649650574,
+                "num_rows": 2,
+                "num_cols": 4,
+                "cells": [
+                    {
+                        "row": 0,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            72,
+                            81,
+                            292,
+                            321
+                        ],
+                        "abs_coords": [
+                            255,
+                            561,
+                            475,
+                            801
+                        ],
+                        "text": "Ekstre Ücreti"
+                    },
+                    {
+                        "row": 0,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            294,
+                            81,
+                            535,
+                            321
+                        ],
+                        "abs_coords": [
+                            477,
+                            561,
+                            718,
+                            801
+                        ],
+                        "text": "SWIFT"
+                    },
+                    {
+                        "row": 0,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            523,
+                            81,
+                            978,
+                            321
+                        ],
+                        "abs_coords": [
+                            706,
+                            561,
+                            1161,
+                            801
+                        ],
+                        "text": "Internet sitemizde ilan edilen “Bankacılık Hizmetleri ile Kredi Ücret ve Komisyonları Tablosu”nda yer alan ücret tahsil edilir."
+                    },
+                    {
+                        "row": 0,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            984,
+                            81,
+                            1204,
+                            321
+                        ],
+                        "abs_coords": [
+                            1167,
+                            561,
+                            1387,
+                            801
+                        ],
+                        "text": "İşlem Başına"
+                    },
+                    {
+                        "row": 1,
+                        "col": 0,
+                        "is_header": false,
+                        "cell_coords": [
+                            72,
+                            312,
+                            292,
+                            405
+                        ],
+                        "abs_coords": [
+                            255,
+                            792,
+                            475,
+                            885
+                        ],
+                        "text": ""
+                    },
+                    {
+                        "row": 1,
+                        "col": 1,
+                        "is_header": false,
+                        "cell_coords": [
+                            294,
+                            312,
+                            535,
+                            405
+                        ],
+                        "abs_coords": [
+                            477,
+                            792,
+                            718,
+                            885
+                        ],
+                        "text": "Posta"
+                    },
+                    {
+                        "row": 1,
+                        "col": 2,
+                        "is_header": false,
+                        "cell_coords": [
+                            523,
+                            312,
+                            978,
+                            405
+                        ],
+                        "abs_coords": [
+                            706,
+                            792,
+                            1161,
+                            885
+                        ],
+                        "text": "Gönderim Kanalı maliyeti kadar tahsil"
+                    },
+                    {
+                        "row": 1,
+                        "col": 3,
+                        "is_header": false,
+                        "cell_coords": [
+                            984,
+                            312,
+                            1204,
+                            405
+                        ],
+                        "abs_coords": [
+                            1167,
+                            792,
+                            1387,
+                            885
+                        ],
+                        "text": ""
+                    }
+                ],
+                "raw_text": "TAHSİLAT PERİYODU\nİŞLEM/KANAL\nMASRAFIN ADI\nMASRAF TUTARI\nInternet\nsitemizde\nilan edilen “Bankacılık\nHizmetleri ile Kredi\nSWIFT\nÜcret ve Komisyonları\nTablosu”nda yer alan\nEkstre Ücreti\nİşlem Başına\nücret tahsil edilir.\nGönderim\nKanalı\nPosta\nmaliyeti kadar tahsil\nFaks\nedilir."
+            },
+            {
+                "type": "title",
+                "coords": [
+                    176,
+                    969,
+                    1026,
+                    1014
+                ],
+                "confidence": 0.9367191195487976,
+                "text": "ÜCRETLERİN GEÇERLİLİK SÜRESİ VE DEĞİŞİKLİK BİLDİRİMLERİ:"
+            },
+            {
+                "type": "plain text",
+                "coords": [
+                    175,
+                    1034,
+                    1461,
+                    1441
+                ],
+                "confidence": 0.9664893746376038,
+                "text": "Bu bilgi formunda yer alan ücretler, bir takvim yılı içerisinde azami Türkiye İstatistik Kurumunca \nbir önceki yılsonu itibariyle açıklanan yıllık tüketici fiyatları endeksi artış oranında artırılabilir.\nBankamız tarafından ücret artışı yapılırken artış uygulanmaya başlanmadan en az otuz gün önce\ntarafınıza yazılı olarak ya da eposta, ATM, telefon, kısa mesaj veya benzeri araçlarla\nbildirilecektir. Bildirim tarihinden sonraki 15 gün içinde ürünün veya hizmetin kullanımından\nvazgeçme hakkınız bulunmaktadır. Bu hakkın kullanılması halinde tarafınızdan hiçbir şekilde\nyeni döneme ait ek bir ücret tahsil edilmeyecektir. Ürün veya hizmetin kullanımıyla ilgili ücret\ndeğişikliğinin kabul edilmemesi durumunda Bankanın bu hizmeti vermeyi durdurma hakkı saklı\nolup, düzenli ödeme / otomatik ödeme vb. talimatının gerçekleşmemesinden kaynaklı olarak\nBankanın herhangi bir sorumluluğu söz konusu olmayacaktır."
+            },
+            {
+                "type": "plain text",
+                "coords": [
+                    176,
+                    1444,
+                    1460,
+                    1524
+                ],
+                "confidence": 0.9168949723243713,
+                "text": "Ürünü kullanmaya veya hizmeti almaya devam etmeniz halinde, değişikliğin kabul edildiği\nvarsayılır ve ücret artışı uygulanır."
+            },
+            {
+                "type": "title",
+                "coords": [
+                    175,
+                    1542,
+                    405,
+                    1584
+                ],
+                "confidence": 0.9423664808273315,
+                "text": "TAHSİLAT ŞEKLİ:"
+            },
+            {
+                "type": "plain text",
+                "coords": [
+                    177,
+                    1605,
+                    1460,
+                    1686
+                ],
+                "confidence": 0.9550461769104004,
+                "text": "Ürün ve hizmet tipine göre, nakden veya hesaben veya kredili mevduat hesabının limitinden\ntahsil edilmek suretiyle yapılır."
+            },
+            {
+                "type": "plain text",
+                "coords": [
+                    175,
+                    1705,
+                    1461,
+                    1990
+                ],
+                "confidence": 0.9826130867004395,
+                "text": "Yukarıda özetlenen konular dışında her türlü detaylı bilgi Mevduat Hesabı Sözleşmesinde yer\nalmakta olup yer almakta olup işbu sözleşme ve Formu Bankalarca Kullanılacak Uzaktan Kimlik\nTespiti Yöntemlerine ve Elektronik Ortamda Sözleşme İlişkisinin Kurulmasına İlişkin Yönetmelik\nile Bankaların Bilgi Sistemleri ve Elektronik Bankacılık Hizmetleri Hakkında Yönetmelik ve sair\nilgili mevzuat uyarınca akdeden Müşteri, yukarıdaki hususları okuyup anladığını, özgür irade\nsonucu bu sözleşmeyi akdettiğini ve sözleşmenin bir nüshasının internet bankacılığı ya da\nmobil bankacılık dağıtım kanalları üzerinden kendisine iletildiğini kabul ve taahhüt eder."
+            },
+            {
+                "type": "title",
+                "coords": [
+                    175,
+                    2013,
+                    486,
+                    2051
+                ],
+                "confidence": 0.8431621193885803,
+                "text": "Müşterinin Adı Soyadı"
+            },
+            {
+                "type": "plain text",
+                "coords": [
+                    176,
+                    2136,
+                    260,
+                    2172
+                ],
+                "confidence": 0.514054536819458,
+                "text": "Tarih:"
+            },
+            {
+                "type": "title",
+                "coords": [
+                    176,
+                    2136,
+                    260,
+                    2172
+                ],
+                "confidence": 0.3367999792098999,
+                "text": "Tarih:"
+            }
+        ]
+    }
+]
